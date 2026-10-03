@@ -18,7 +18,7 @@ Todos os dias: pausas a cada 40 min sentado e meta de passos.
 
 ## Estrutura de cada sessão de musculação
 
-1. **Aquecimento (8–10 min):** 5 min de bike sem carga ou elíptico/esteira sem inclinação (evitar escada/step) + mobilidade + 1 série leve (~50% da carga) do primeiro exercício. No Treino C, também ativação de glúteo médio (abdução com miniband, deitado de lado).
+1. **Aquecimento (8–10 min):** 5 min de esteira plana ou elíptico (evitar escada/step; bike só com banco alto, para o joelho não passar de 90° no alto da pedalada, e com ok do fisio) + mobilidade + 1 série leve (~50% da carga) do primeiro exercício. No Treino C, também ativação de glúteo médio (abdução com miniband, deitado de lado).
 2. **Bloco principal:** 4×12 (S6: 3×12). Descanso de 60–90 s.
 3. **Volta à calma (3–5 min):** alongamento leve, sem posições de joelho muito fletido com carga (nada de ajoelhar nem sentar sobre os calcanhares).
 

@@ -68,7 +68,7 @@ Legenda: ✅ liberado · ⚠️ liberado com ajuste obrigatório · ❌ proibido
 | C7 | Panturrilha em pé | Joelho estendido | R7 (aprovado), R8 | ✅ | Joelhos destravados, sem hiperestender. |
 | — | **Natação** (cardio) | Depende do nado e das viradas | R2 (por analogia), R8 | ⚠️ | Preferir **crawl e costas** (pernada de flexão pequena). **Nado peito** (pernada em "sapo") com cautela ou evitar se doer. Na virada, **não encolher o joelho além de 90°** para empurrar a parede (fazer virada aberta com impulso suave). Pés de pato só com liberação do fisio. |
 
-**Resumo:** 1 proibido (extensora, já cortada), 9 com ajuste obrigatório, 8 liberados sem ajuste. Nenhum exercício restante desrespeita R1–R8 se os ajustes forem seguidos.
+**Resumo:** 1 proibido (extensora, já cortada), 9 com ajuste obrigatório (8 exercícios + natação), 9 liberados sem ajuste. Nenhum exercício restante desrespeita R1–R8 se os ajustes forem seguidos.
 
 ## 3. Pontos para levar ao personal e ao fisioterapeuta
 
