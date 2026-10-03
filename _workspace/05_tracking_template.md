@@ -1,670 +1,629 @@
 # 05 — Template de Acompanhamento do Progresso
 
-> Autor: **template-builder** · Base: `01_program_design.md`, `02_weekly_schedule.md`, `03_exercise_guide.md`, `04_nutrition_plan.md`, `handoff_architect.md`, `handoff_guide.md`, `handoff_linker.md` · Skill: `periodization-engine` (periodização linear, dupla progressão, Epley, deload).
-> Programa: hipertrofia · iniciante · Superior/Inferior 4×/semana (Seg Sup A · Ter Inf A · Qui Sup B · Sex Inf B) · 12 semanas · homem, 28 anos, 178 cm, 75 kg.
+> Autor: **template-builder** · Base: `00_input.md`, `01_program_design.md`, `02_weekly_schedule.md`, `03_exercise_guide.md`, `04_nutrition_plan.md`, `handoff_architect.md`, `handoff_guide.md`, `handoff_linker.md` · Skill: `periodization-engine` (dupla progressão, RIR/RPE, deload, Epley) · Data: 03/10/2026
+> Perfil: **Matheus**, 26 anos, 173 cm, iniciante · recomposição corporal · PPL do personal (A costas + abdômen · B peito + tríceps · C perna) 3x/semana, 4×12 + natação 2x/semana · **S1 05/10 → S6 09–14/11/2026**.
+> ⚠️ **Condropatia femoropatelar bilateral.** A cadeira extensora está **❌ cortada (R1)** e não aparece como linha de treino. Qualquer dor ≥ 5 ou aguda → parar e avisar personal/fisio (R8).
+> Este template **não muda** o programa do personal nem o plano da nutricionista Mariana Muñoz (CRN3 34962). **Não há contagem de calorias nem de macros** (o plano não tem essas metas).
+
+---
 
 ## Guia de uso
 
 | Quando | O que preencher | Tempo | Seção |
 |---|---|---|---|
-| Todo treino (Seg/Ter/Qui/Sex) | Cabeçalho da sessão + log por série (carga, reps, RPE) | 3–5 min | 1 |
-| Todo dia (ao acordar e à noite) | Condição (sono, fadiga, dor) + peso em jejum + nutrição | 2–3 min | 2 |
-| Domingo | Resumo semanal: volume por músculo, aderência, peso médio, kcal/proteína, sinais de deload | 10 min | 3 |
-| Fim das **S3, S7, S11, S12** | Avaliação periódica: e1RM dos 4 exercícios P, medidas, fotos, decisões | 20–30 min | 4 e 5 |
-| Quando houver dúvida | Regras de progressão e de deload | — | 6 e 7 |
+| Todo treino de musculação (A/B/C) | Cabeçalho da sessão + séries (carga, reps, RIR) + checklist de ajuste + dor no joelho | 3–5 min | 1 |
+| 24 h depois de cada treino | Dor no joelho E/D "24 h depois" (na linha da sessão) | 10 s | 1 |
+| Toda natação | Log de natação | 1 min | 2 |
+| Todo dia (à noite) | Check diário: condição + nutrição | 1–2 min | 3 |
+| S1 e S6 | Bioimpedância + cintura + fotos | 15 min | 4 e 5 |
+| S3 e S5 | Cintura | 2 min | 4 |
+| Fim de cada semana | Resumo semanal | 10 min | 6 |
+| S6 (até 14/11) | Avaliação final + resumo para o personal + resumo para a nutricionista | 30 min | 7 e 8 |
 
 **Obrigatório × opcional** (para não pesar o registro):
 
 | Obrigatório | Opcional |
 |---|---|
-| Carga, reps e RPE de cada série · duração da sessão · energia pré-treino · dor articular · peso em jejum (mín. 3×/sem) · sono (h) · kcal e proteína · creatina · medidas e e1RM nas S3/S7/S11/S12 | Ajustes de máquina (preencher só na 1ª vez e quando mudar) · carboidrato/gordura · cor da urina · whey · cafeína · FC de repouso · variação de peso no treino · álcool · % de gordura |
+| Carga, reps e RIR de cada série · dor no joelho E/D (antes, durante, 24 h) · "ajuste conferido?" · minutos e nado da natação · sono · passos · pausas · água · 4 refeições ✔/✘ · porção de 150 g de proteína ✔/✘ · Talento/bombom · cintura e bioimpedância nas datas | Nº do pino de cada máquina (preencher na 1ª vez e quando mudar) · peso em jejum diário (mín. 3x/semana) · cor da urina · proteína no café/lanche · variação de peso na sessão · suplemento (só se a nutricionista liberar) · medidas extras (quadril, coxa, braço) |
 
-**Convenções**
-- Célula de série: `kg × reps @RPE` (ex.: `60 × 10 @7`). RPE de 6 a 10, meio ponto permitido. RPE 7 = 3 reps em reserva · 8 = 2 · 9 = 1.
-- Halteres: registrar a carga **por halter** (ex.: `16 × 12 @7` = dois halteres de 16 kg).
-- Búlgaro: `kg/halter × E reps / D reps @RPE` (ex.: `10 × 10/10 @7`).
-- Prancha: `segundos` (ex.: `35 s`). Pallof press: `kg × reps/lado` (Intensificação: pode ser `kg × reps × 10 s iso`).
-- `—` = série não prevista naquela semana. ✔ = feito · ✘ = não feito · S/N = sim/não.
-- **P** = Principal · **S1** = primeiro secundário (+1 série nas S6–7) · **S** = Secundário · **A** = Acessório · **C** = Core.
+### Convenções
 
-### Calendário de fases (consulta rápida)
+- **RIR** = repetições em reserva (0–5). RIR 3 ≈ RPE 7 · RIR 2 ≈ RPE 8 · RIR 1 ≈ RPE 9 · RIR 0 = falha.
+- **Carga:** kg ou nº da placa (sempre o mesmo jeito na mesma máquina). **B4 (elevação frontal): carga por halter.**
+- **C5 (flexora vertical) é unilateral:** registrar reps e dor **por perna (E/D)**.
+- **Dor no joelho:** escala 0–10, **E** = esquerdo, **D** = direito. Só dor **na frente, em volta ou atrás da patela**. Dor muscular tardia (DOMS) não conta.
+- `—` = não se aplica / série não prevista (S6 tem 3 séries). ✔ = feito · ✘ = não feito · S/N = sim/não.
+- Exercício trocado: anotar **"Sub: nome — F/M/D — motivo (máquina ocupada / dor / outro)"** (alternativas Fácil/Moderada/Difícil do `03`).
 
-| Semana | Fase | Séries/sem | P | S (S1) | A | C | Evento |
-|---|---|---|---|---|---|---|---|
-| 1 | Adaptação (familiarização) | 52 | 2×10–12 @6 | 2×10–12 @6 | 2×12–15 @6 | 2× 20–30 s | Registrar cargas iniciais |
-| 2–3 | Adaptação | 64 | 3×10–12 @6–7 · 2' | 3×10–12 @6–7 · 90" | 2×12–15 @7 · 60" | 2× 20–30 s | **Fim da S3: Avaliação 1** |
-| 4–5 | Acumulação | 82 | 4×8–10 @7–8 · 2–2,5' | 3×10–12 @7–8 · 90–120" | 3×12–15 @8–9 · 60–75" | 3× 30–45 s | S4 começa com ~70% do e1RM nos P |
-| 6–7 | Acumulação (pico) | 86 | 4×8–10 @7–8 (S6–7 no topo: @8) | 3×10–12 @7–8 (**S1: 4×**) | 3×12–15 @8–9 | 3× 30–45 s | **Fim da S7: Avaliação 2** |
-| 8–9 | Intensificação | 82 | 4×5–7 @8 · 2,5–3' | 3×6–8 @8–9 · 90–120" | 3×10–12 @8–9 · 75–90" | 3× 40–60 s | S8 começa com ~78–80% do e1RM nos P |
-| 10–11 | Intensificação (pico de carga) | 82 | 4×5–7 @8–9 · 2,5–3' | 3×6–8 @8–9 | 3×10–12 @8–9 (última @9–10 em máquina) | 3× 40–60 s | **Fim da S11: Avaliação 3** |
-| 12 | Deload | 40 | 2×6–8 @5–6 · 2' (~60% e1RM) | 2×8–10 @6 · 90" | 1×12 @6 · 60" | 2× 20–30 s | **Re-teste opcional + Avaliação final** |
+### Regras que o template aplica
 
-> Primeira semana de cada fase = usar o **limite inferior** do RPE alvo. Teto de esforço nos compostos livres (agachamento, supino reto, terra romeno, remada curvada): **RPE 9, nunca falha**.
+**🚦 Regra da dor no joelho** (`01` seção 4 · `03` "Regra da dor"):
 
----
+| Dor (E ou D, o maior) | Código | O que fazer | Registrar |
+|---|---|---|---|
+| **0–2** | VERDE | Segue normalmente | — |
+| **3–4** | AMARELO | **Reduz** a carga (1–2 pinos) ou a amplitude e confere o ajuste. Se continuar 3–4 → troca pela alternativa "Fácil" | Reduziu? S/N · Trocou? S/N |
+| **≥ 5**, dor aguda/em pontada, estalo com dor, falseio, inchaço | VERMELHO | **Para o exercício** naquele dia e avisa personal e fisio/ortopedista (R8) | Parou? S/N · Avisou? S/N |
+| Dor que **piora 24 h depois**, ou 3–4 em **2 sessões seguidas** no mesmo exercício | ALERTA | Avisar o personal **antes do próximo Treino C** | Avisou? S/N |
 
-## 1. Log diário de treino
+**📈 Regra de progressão** (dupla progressão, `01` seção 4 · skill `periodization-engine`):
 
-### 1.0 Cabeçalho da sessão (copiar no topo de cada treino)
+| Semana | Esforço alvo | Regra |
+|---|---|---|
+| S1–S2 (05–18/10) · Ajuste | RIR 3 | Ajustar as máquinas, anotar pinos e cargas. Achar a carga que dá 4×12 com RIR 3 |
+| S3–S5 (19/10–08/11) · Progressão | RIR 1–2 (A5, C1, C4, C5, C6: RIR 2, **sem falha**) | **Fez 4×12 com RIR ≥ 2 em todas as séries → sobe o menor incremento da máquina na próxima sessão.** Não chegou a 12 em alguma série → mantém a carga |
+| S6 (09–14/11) · Semana leve | RIR 3–4, **3 séries** | Não subir carga. Manter (ou reduzir) a carga até as 3×12 saírem com RIR 3–4 |
 
-| Data | Semana (1–12) | Fase | Sessão | Início | Fim | Duração (min) | Séries feitas / planejadas | Energia pré-treino (1–5) | Sono na noite anterior (h) | Aquecimento ✔ (geral / mobilidade / aproximação P) | Volta à calma ✔ | Sensação geral (1–5) |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| | | | Sup A / Inf A / Sup B / Inf B | | | | / | | | ✔ ✔ ✔ | | |
+**🚫 Falha proibida** em **A5, C1, C4, C5 e C6**: se qualquer série desses exercícios tiver **RIR < 2**, marcar "⚠️ falha" e reduzir a carga na próxima sessão (`03` linhas 267/540; ver Validação cruzada, item 8). Nos outros exercícios, falha só na **última série a partir da S3** e só com o personal de acordo.
 
-| Refeição pré-treino (1,5–2 h antes) | Horário | Cafeína (mg) | Horário cafeína | Proteína pós-treino ≤ 2 h | Peso antes/depois (opcional) | Dor articular 0–10 + local | Observações gerais |
-|---|---|---|---|---|---|---|---|
-| S/N | | | | S/N | kg / kg | | |
+### Fórmulas para planilha (Google Planilhas em pt-BR; no Excel em inglês: SE=IF, E=AND, MÍNIMO=MIN, MÁXIMO=MAX, CONT.SE=COUNTIF)
 
-**Séries de aproximação no P** (marcar): ☐ barra vazia × 10 · ☐ ~50% × 8 · ☐ ~70% × 5 · ☐ ~85% × 2–3 (S4 em diante).
+Supondo, em cada linha de exercício, reps das séries em `D:G`, RIR em `H:K`, dor E em `L` e dor D em `M`:
 
-**Colunas calculadas** (iguais em todas as sessões):
-- **Tonelagem** = Σ (carga × reps) das séries de trabalho.
-- **e1RM** (Epley) = carga × (1 + reps/30) da **melhor série** (maior resultado). Obrigatório só nos exercícios P; opcional nos demais.
-- **Subir carga?** = `SIM` se **todas** as séries chegaram ao **topo da faixa** com RPE ≤ alvo **e** técnica estável = S. Senão `MANTER`.
+| Indicador | Fórmula |
+|---|---|
+| Sobe a carga? (S3–S5) | `=SE(E(CONT.SE(D2:G2;">=12")=4;MÍNIMO(H2:K2)>=2);"SOBE";"MANTÉM")` |
+| Código da dor | `=SE(MÁXIMO(L2:M2)>=5;"VERMELHO";SE(MÁXIMO(L2:M2)>=3;"AMARELO";"VERDE"))` |
+| Alerta de falha (A5, C1, C4, C5, C6) | `=SE(MÍNIMO(H2:K2)<2;"⚠️ falha proibida";"")` |
+| e1RM Epley (só referência) | `=carga*(1+reps/30)` → com 12 reps = carga × 1,4 |
 
 ---
 
-### 1.1 Segunda — Superior A (ênfase horizontal)
+## 0. Calendário das 6 semanas (datas reais)
 
-#### Metas por semana
+Semana-tipo do `02` (Seg A · Ter natação · Qua B · Qui descanso ativo · Sex C · Sáb natação · Dom descanso). As semanas vão de **segunda a domingo** (corrigido pelo orquestrador; ver Validação cruzada, item 1). Pode trocar as datas, desde que fique ≥ 1 dia entre musculações.
 
-| # | Exercício | Cat. | S1 | S2–3 | S4–5 | S6–7 | S8–9 | S10–11 | S12 | Descanso (Adapt / Acum / Int / Del) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Supino reto com barra | P | 2×10–12 @6 | 3×10–12 @6–7 | 4×8–10 @7–8 | 4×8–10 @7–8 | 4×5–7 @8 | 4×5–7 @8–9 | 2×6–8 @5–6 | 2' / 2–2,5' / 2,5–3' / 2' |
-| 2 | Remada curvada com barra (pegada pronada) | S1 | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | **4**×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 90–120" / 90" |
-| 3 | Desenvolvimento com halteres sentado | S | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | 3×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 90–120" / 90" |
-| 4 | Puxada frontal na polia (pegada aberta) | S | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | 3×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 90–120" / 90" |
-| 5 | Elevação lateral com halteres | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | 60" / 60–75" / 75–90" / 60" |
-| 6a | Rosca direta com barra EZ (bi-set) | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | sem descanso → 6b |
-| 6b | Tríceps na polia com corda (bi-set) | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 (últ. @9–10) | 3×10–12 @8–9 (últ. @9–10) | 1×12 @6 | após o par: 60–75" / 75–90" / 90" / 60" |
-| | **Total de séries** | | **14** | **18** | **22** | **23** | **22** | **22** | **11** | |
-
-#### Registro — Semana ___ · Data ___/___
-
-| # | Exercício (original ou substituto + motivo) | Ajuste de máquina/setup | Série 1 | Série 2 | Série 3 | Série 4 | Campo específico | Técnica estável? | Dor 0–10 / local | Tonelagem | e1RM | Subir carga? |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Supino reto com barra | Altura do banco/seguranças: | kg × @ | kg × @ | kg × @ | kg × @ | Seguranças/spotter: S/N | S/N | | | | |
-| 2 | Remada curvada com barra | — | kg × @ | kg × @ | kg × @ | kg × @ (S6–7) | Lombar neutra todas as reps: S/N · Strap: S/N | S/N | | | | |
-| 3 | Desenvolvimento c/ halteres sentado | Banco 80–90° | kg/halter × @ | × @ | × @ | — | Carga por halter | S/N | | | | |
-| 4 | Puxada frontal aberta | Apoio das coxas: | kg × @ | kg × @ | kg × @ | — | — | S/N | | | | |
-| 5 | Elevação lateral c/ halteres | — | kg/halter × @ | × @ | × @ (S4+) | — | Carga por halter | S/N | | | | |
-| 6a | Rosca direta EZ (bi-set) | — | kg × @ | kg × @ | kg × @ (S4+) | — | Bi-set feito sem pausa: S/N | S/N | | | | |
-| 6b | Tríceps corda (bi-set) | Altura da polia: | kg × @ | kg × @ | kg × @ (S4+) | — | Descanso só após o par: S/N | S/N | | | | |
-
-**Notas técnicas da sessão** (ex.: "lombar ok na remada", "cotovelo abriu no supino"): ______________________
+| Semana | Janela | Fase | Treino A (Seg) | Natação (Ter) | Treino B (Qua) | Treino C (Sex) | Natação (Sáb) | Marcos |
+|---|---|---|---|---|---|---|---|---|
+| S1 | 05–11/10 | Ajuste (RIR 3) | 05/10 | 06/10 | 07/10 | 09/10 | 10/10 | **Bioimpedância + cintura + fotos** (seg 05/10, manhã, antes do Treino A) |
+| S2 | 12–18/10 | Ajuste (RIR 3) | 12/10 (feriado: se fechar → ter 13/10, natação na qui 15/10) | 13/10 | 14/10 | 16/10 | 17/10 | — |
+| S3 | 19–25/10 | Progressão (RIR 1–2) | 19/10 | 20/10 | 21/10 | 23/10 | 24/10 | **Cintura** |
+| S4 | 26/10–01/11 | Progressão | 26/10 | 27/10 | 28/10 | 30/10 | 31/10 | — |
+| S5 | 02–08/11 | Progressão | 02/11 (Finados: mesma troca da S2) | 03/11 | 04/11 | 06/11 | 07/11 | **Cintura** |
+| S6 | 09–14/11 | Semana leve (3 séries, RIR 3–4) | 09/11 | 10/11 | 11/11 | 13/11 | 14/11 (opcional) | **Bioimpedância + cintura + fotos** (seg 09/11, manhã, antes do Treino A) · reunião com o personal **sáb 14/11** |
 
 ---
 
-### 1.2 Terça — Inferior A (ênfase quadríceps)
+## 1. Log de treino por sessão
 
-#### Metas por semana
+> Copie o bloco da sessão (A, B ou C) para cada data. As linhas da série 4 ficam `—` na **S6**.
 
-| # | Exercício | Cat. | S1 | S2–3 | S4–5 | S6–7 | S8–9 | S10–11 | S12 | Descanso (Adapt / Acum / Int / Del) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Agachamento livre com barra (barra alta) | P | 2×10–12 @6 | 3×10–12 @6–7 | 4×8–10 @7–8 | 4×8–10 @7–8 | 4×5–7 @8 | 4×5–7 @8–9 | 2×6–8 @5–6 | 2' / 2–2,5' / 2,5–3' / 2' |
-| 2 | Leg press 45° | S1 | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | **4**×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 2' / 90" |
-| 3 | Cadeira extensora | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 (últ. @9–10) | 3×10–12 @8–9 (últ. @9–10) | 1×12 @6 | 60" / 60–75" / 75–90" / 60" |
-| 4 | Mesa flexora (deitado) | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 (últ. @9–10) | 3×10–12 @8–9 (últ. @9–10) | 1×12 @6 | 60" / 60–75" / 75–90" / 60" |
-| 5 | Panturrilha em pé na máquina | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | 60" / 60" / 75" / 60" |
-| 6 | Prancha frontal | C | 2× 20–30 s | 2× 20–30 s | 3× 30–45 s | 3× 30–45 s | 3× 40–60 s | 3× 40–60 s | 2× 20–30 s | 45" / 45" / 60" / 45" |
-| | **Total de séries** | | **12** | **14** | **19** | **20** | **19** | **19** | **9** | |
+### Cabeçalho da sessão (igual para A, B e C)
 
-#### Registro — Semana ___ · Data ___/___
-
-| # | Exercício (original ou substituto + motivo) | Ajuste de máquina/setup | Série 1 | Série 2 | Série 3 | Série 4 | Campo específico | Técnica estável? | Dor 0–10 / local | Tonelagem | e1RM | Subir carga? |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Agachamento livre com barra | Altura do suporte/seguranças: | kg × @ | kg × @ | kg × @ | kg × @ | Seguranças: S/N · Profundidade: acima / paralelo / abaixo | S/N | | | | |
-| 2 | Leg press 45° | Posição dos pés: | kg × @ | kg × @ | kg × @ | kg × @ (S6–7) | Lombar/quadril colados: S/N | S/N | | | | |
-| 3 | Cadeira extensora | Encosto/eixo: | kg × @ | kg × @ | kg × @ (S4+) | — | Pausa 1 s no topo: S/N | S/N | | | | |
-| 4 | Mesa flexora | Eixo/rolo: | kg × @ | kg × @ | kg × @ (S4+) | — | — | S/N | | | | |
-| 5 | Panturrilha em pé | Ombreira: | kg × @ | kg × @ | kg × @ (S4+) | — | Pausa alongada 1–2 s: S/N | S/N | | | | |
-| 6 | Prancha frontal | — | s | s | s (S4+) | — | Tempo (s) | S/N | | — | — | +5–10 s? |
-
-**Notas técnicas da sessão**: ______________________
+| Campo | Valor |
+|---|---|
+| Data / Semana (S1–S6) / Treino (A/B/C) | ___/___ · S__ · __ |
+| Horário (manhã / noite + hora) · Duração (min) | ______ · ___ min |
+| Pré-treino feito? (✔/✘ + horário: fruta no cenário manhã · lanche 16:00 no cenário noite) | |
+| Refeição pós-treino (horário do almoço ou jantar seguinte; ideal ≤ 2–3 h) | |
+| Energia antes do treino (1–5) | |
+| **Dor no joelho ANTES** (E / D, 0–10) | E __ / D __ |
+| **Dor no joelho DURANTE** (pico da sessão, E / D) | E __ / D __ |
+| **Dor no joelho 24 h DEPOIS** (E / D) — preencher no dia seguinte | E __ / D __ · piorou? S/N |
+| **Todas as máquinas conferidas?** (S/N) | |
+| Aquecimento feito (esteira plana/elíptico 5 min + mobilidade + série leve; no C, ativação de glúteo) ✔/✘ | |
+| Volta à calma feita (sem ajoelhar) ✔/✘ | |
+| Água na sessão (ml, opcional) · peso antes/depois (opcional) | |
+| Observações para o personal | |
 
 ---
 
-### 1.3 Quinta — Superior B (ênfase inclinada/vertical)
+### 1A. Treino A — Costas + abdômen
 
-#### Metas por semana
+**Séries** (formato longo: 1 linha por série = 1 linha de planilha)
 
-| # | Exercício | Cat. | S1 | S2–3 | S4–5 | S6–7 | S8–9 | S10–11 | S12 | Descanso (Adapt / Acum / Int / Del) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Supino inclinado com halteres (30–45°) | P | 2×10–12 @6 | 3×10–12 @6–7 | 4×8–10 @7–8 | 4×8–10 @7–8 | 4×5–7 @8 | 4×5–7 @8–9 | 2×6–8 @5–6 | 2' / 2–2,5' / 2,5–3' / 2' |
-| 2 | Puxada frontal supinada (ou barra fixa assistida) | S1 | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | **4**×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 90–120" / 90" |
-| 3 | Remada sentada no cabo (triângulo) | S | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | 3×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 90–120" / 90" |
-| 4 | Crucifixo na máquina (peck deck) | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 (últ. @9–10) | 3×10–12 @8–9 (últ. @9–10) | 1×12 @6 | 60" / 60–75" / 75–90" / 60" |
-| 5 | Face pull na polia com corda | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | 60" / 60" / 75" / 60" |
-| 6a | Rosca martelo com halteres (bi-set) | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | sem descanso → 6b |
-| 6b | Tríceps francês com halter, sentado (bi-set) | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | após o par: 60–75" / 75–90" / 90" / 60" |
-| | **Total de séries** | | **14** | **17** | **22** | **23** | **22** | **22** | **10** | |
-
-#### Registro — Semana ___ · Data ___/___
-
-| # | Exercício (original ou substituto + motivo) | Ajuste de máquina/setup | Série 1 | Série 2 | Série 3 | Série 4 | Campo específico | Técnica estável? | Dor 0–10 / local | Tonelagem | e1RM | Subir carga? |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Supino inclinado c/ halteres | Inclinação: 30° / 45° | kg/halter × @ | × @ | × @ | × @ | Carga por halter · Spotter (S8–11): S/N | S/N | | | | |
-| 2 | Puxada supinada / barra assistida | Modalidade: polia / barra | kg × @ | kg × @ | kg × @ | kg × @ (S6–7) | Barra assistida: kg de **assistência** (menor = progresso) | S/N | | | | |
-| 3 | Remada sentada (triângulo) | Posição dos pés: | kg × @ | kg × @ | kg × @ | — | — | S/N | | | | |
-| 4 | Peck deck | Altura do banco: | kg × @ | kg × @ | kg × @ (S4+) | — | — | S/N | | | | |
-| 5 | Face pull com corda | Altura da polia: | kg × @ | kg × @ | kg × @ (S4+) | — | Rotação externa no final: S/N | S/N | | | | |
-| 6a | Rosca martelo (bi-set) | — | kg/halter × @ | × @ | × @ (S4+) | — | Carga por halter | S/N | | | | |
-| 6b | Tríceps francês c/ halter (bi-set) | — | kg × @ | kg × @ | kg × @ (S4+) | — | Carga do halter · descanso só após o par: S/N | S/N | | | | |
-
-**Notas técnicas da sessão**: ______________________
-
----
-
-### 1.4 Sexta — Inferior B (ênfase cadeia posterior e glúteos)
-
-#### Metas por semana
-
-| # | Exercício | Cat. | S1 | S2–3 | S4–5 | S6–7 | S8–9 | S10–11 | S12 | Descanso (Adapt / Acum / Int / Del) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Levantamento terra romeno com barra | P | 2×10–12 @6 | 3×10–12 @6–7 | 4×8–10 @7–8 | 4×8–10 @7–8 | 4×5–7 @8 | 4×5–7 @8–9 | 2×6–8 @5–6 | 2' / 2–2,5' / 2,5–3' / 2' |
-| 2 | Agachamento búlgaro com halteres (por perna) | S1 | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | **4**×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 2' / 90" (~30 s entre pernas) |
-| 3 | Elevação pélvica com barra (hip thrust) | S | 2×10–12 @6 | 3×10–12 @6–7 | 3×10–12 @7–8 | 3×10–12 @7–8 | 3×6–8 @8–9 | 3×6–8 @8–9 | 2×8–10 @6 | 90" / 90–120" / 90–120" / 90" |
-| 4 | Cadeira flexora sentada | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 (últ. @9–10) | 3×10–12 @8–9 (últ. @9–10) | 1×12 @6 | 60" / 60–75" / 75–90" / 60" |
-| 5 | Panturrilha sentada na máquina | A | 2×12–15 @6 | 2×12–15 @7 | 3×12–15 @8–9 | 3×12–15 @8–9 | 3×10–12 @8–9 | 3×10–12 @8–9 | 1×12 @6 | 60" / 60" / 75" / 60" |
-| 6 | Pallof press na polia | C | 2×8–10/lado | 2×8–10/lado | 3×10–12/lado | 3×10–12/lado | 3×12–15/lado (ou iso 10 s/rep) | 3×12–15/lado (ou iso 10 s/rep) | 2×8/lado | 45" / 45" / 60" / 45" |
-| | **Total de séries** | | **12** | **15** | **19** | **20** | **19** | **19** | **10** | |
-
-#### Registro — Semana ___ · Data ___/___
-
-| # | Exercício (original ou substituto + motivo) | Ajuste de máquina/setup | Série 1 | Série 2 | Série 3 | Série 4 | Campo específico | Técnica estável? | Dor 0–10 / local | Tonelagem | e1RM | Subir carga? |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Terra romeno com barra | — | kg × @ | kg × @ | kg × @ | kg × @ | Lombar neutra: S/N · Strap (S8+): S/N · Parada: joelho / meio da canela | S/N | | | | |
-| 2 | Búlgaro c/ halteres | Distância pé–banco: | kg/halter × E/D @ | × E/D @ | × E/D @ | × E/D @ (S6–7) | Peso corporal (S1–2): S/N · reps E e D separadas | S/N | | | | |
-| 3 | Hip thrust com barra | Altura do banco: | kg × @ | kg × @ | kg × @ | — | Pausa 1 s no topo: S/N | S/N | | | | |
-| 4 | Cadeira flexora sentada | Eixo/encosto: | kg × @ | kg × @ | kg × @ (S4+) | — | — | S/N | | | | |
-| 5 | Panturrilha sentada | Apoio dos joelhos: | kg × @ | kg × @ | kg × @ (S4+) | — | Pausa alongada 1–2 s: S/N | S/N | | | | |
-| 6 | Pallof press | Altura da polia: | kg × reps/lado | kg × reps/lado | kg × reps/lado (S4+) | — | Reps por lado (ou s de isometria) | S/N | | | — | |
-
-**Notas técnicas da sessão**: ______________________
-
----
-
-## 2. Registro diário — condição e nutrição (1 linha por dia)
-
-### 2.1 Condição diária
-
-| Data | Dia | Peso em jejum (kg, 1 casa) | Sono (h) | Qualidade do sono (1–5) | Fadiga (1–5) | Estresse (1–5) | Motivação (1–5) | Dor articular (0–10, local) | FC de repouso (bpm, opcional) |
-|---|---|---|---|---|---|---|---|---|---|
-| | Seg | | | | | | | | |
-| | Ter | | | | | | | | |
-| | Qua | | | | | | | | |
-| | Qui | | | | | | | | |
-| | Sex | | | | | | | | |
-| | Sáb | | | | | | | | |
-| | Dom | | | | | | | | |
-
-> Peso: ao acordar, após urinar, em jejum, sem roupa, mesma balança. FC de repouso: deitado, ao acordar, contar 60 s.
-
-### 2.2 Nutrição diária
-
-| Data | Dia | Tipo de dia (Treino / Descanso / Descanso + Z2) | Meta kcal | kcal | Proteína (g) | g/kg | Carbo (g) | Gordura (g, opc.) | Água (L) | Creatina 3–5 g ✔ | Whey (doses, opc.) | Cafeína total (mg) | Cor da urina (opc.) | Dentro da meta? (kcal ±10% e prot ≥ 150 g) |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| | Seg | Treino | | | | | | | | | | | | S/N |
-| | Ter | Treino | | | | | | | | | | | | S/N |
-| | Qua | Descanso | | | | | | | | | | | | S/N |
-| | Qui | Treino | | | | | | | | | | | | S/N |
-| | Sex | Treino | | | | | | | | | | | | S/N |
-| | Sáb | Descanso | | | | | | | | | | | | S/N |
-| | Dom | Descanso | | | | | | | | | | | | S/N |
-
-### 2.3 Metas nutricionais por semana (para preencher "Meta kcal")
-
-| Semanas | Fase | Dia de treino (Seg/Ter/Qui/Sex) | Dia de descanso (Qua/Sáb/Dom) | Média semanal | Água |
+| Exercício | Série | Carga (kg/placa) | Reps | RIR | ✔ |
 |---|---|---|---|---|---|
-| 1–3 | Adaptação | 3.100 kcal · P 160 · C 445 · G 75 | 2.820 kcal · P 160 · C 355 · G 85 | ≈ 2.980 | Treino ≥ 3,0 L · descanso ≥ 2,6 L |
-| 4–7 | Acumulação | **3.200 kcal** · P 160 · **C 470** · G 75 | 2.820 kcal · P 160 · C 355 · G 85 | ≈ 3.040 | idem |
-| 8–11 | Intensificação | 3.200 kcal · P 160 · C 470 · G 75 | 2.820 kcal · P 160 · C 355 · G 85 | ≈ 3.040 | idem (sessão > 75 min: bebida com ~30 g de carbo) |
-| 12 | Deload | 3.100 kcal · P 160 · C 445 · G 75 (**sem corte**) | 2.820 kcal | ≈ 2.980 | idem · pausar cafeína |
+| A1 Pulley pronado | 1 | | | | |
+| A1 Pulley pronado | 2 | | | | |
+| A1 Pulley pronado | 3 | | | | |
+| A1 Pulley pronado | 4 (— S6) | | | | |
+| A2 Pulley supinado | 1 | | | | |
+| A2 Pulley supinado | 2 | | | | |
+| A2 Pulley supinado | 3 | | | | |
+| A2 Pulley supinado | 4 (— S6) | | | | |
+| A3 Remada articulada neutra | 1 | | | | |
+| A3 Remada articulada neutra | 2 | | | | |
+| A3 Remada articulada neutra | 3 | | | | |
+| A3 Remada articulada neutra | 4 (— S6) | | | | |
+| A4 Remada baixa triângulo | 1 | | | | |
+| A4 Remada baixa triângulo | 2 | | | | |
+| A4 Remada baixa triângulo | 3 | | | | |
+| A4 Remada baixa triângulo | 4 (— S6) | | | | |
+| A5 Abdômen Hammer (**sem falha**, RIR ≥ 2) | 1 | | | | |
+| A5 Abdômen Hammer | 2 | | | | |
+| A5 Abdômen Hammer | 3 | | | | |
+| A5 Abdômen Hammer | 4 (— S6) | | | | |
 
-- Descanso + cardio Z2: somar **+150 kcal** à meta do dia.
-- Proteína: alvo 160 g, mínimo **150 g**. Alerta se **< 140 g em 2+ dias** da semana.
-- Cafeína: 30–60 min antes do treino, **≥ 6–8 h antes de dormir**, total diário **≤ 400 mg**.
-- Somar ao total da meta kcal os ajustes da balança já aplicados (seção 3.5).
+**Por exercício: ajuste, dor e progressão**
 
----
-
-## 3. Resumo semanal (preencher no domingo)
-
-### Semana ___ · Fase ________ · De ___/___ a ___/___
-
-### 3.1 Sessões e aderência
-
-| Dia | Sessão | Feita ✔/✘ | Data real (se remarcada) | Duração (min) | Séries feitas | Séries planejadas | Tonelagem total (kg) | Energia pré (1–5) | Sensação (1–5) | Obs. |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Seg | Superior A | | | | | | | | | |
-| Ter | Inferior A | | | | | | | | | |
-| Qui | Superior B | | | | | | | | | |
-| Sex | Inferior B | | | | | | | | | |
-| **Total** | | **/4** | | **média:** | | **52 / 64 / 82 / 86 / 40** | | | | |
-
-**Aderência ao treino** = sessões feitas ÷ 4 = ____ % (meta 100%; < 75% em 2 semanas seguidas → rever a agenda).
-**Séries feitas ÷ planejadas** = ____ %.
-
-### 3.2 Volume por grupo muscular (séries de trabalho diretas) — feito × alvo
-
-| Grupo muscular | Exercícios que contam | Alvo S1 | Alvo S2–3 | Alvo S4–5 | Alvo S6–7 | Alvo S8–11 | Alvo S12 | **Feito nesta semana** | Diferença |
-|---|---|---|---|---|---|---|---|---|---|
-| Peito | Supino reto, Supino inclinado, Peck deck | 6 | 8 | 11 | 11 | 11 | 5 | | |
-| Costas | Remada curvada, Puxada aberta, Puxada supinada, Remada sentada | 8 | 12 | 12 | 14 | 12 | 8 | | |
-| Deltoides (ant./lat.) | Desenvolvimento, Elevação lateral | 4 | 5 | 6 | 6 | 6 | 3 | | |
-| Deltoide posterior | Face pull | 2 | 2 | 3 | 3 | 3 | 1 | | |
-| Bíceps | Rosca direta EZ, Rosca martelo | 4 | 4 | 6 | 6 | 6 | 2 | | |
-| Tríceps | Tríceps corda, Tríceps francês | 4 | 4 | 6 | 6 | 6 | 2 | | |
-| Quadríceps | Agachamento, Leg press, Extensora, Búlgaro | 8 | 11 | 13 | 15 | 13 | 7 | | |
-| Posteriores de coxa | Terra romeno, Mesa flexora, Cadeira flexora | 6 | 7 | 10 | 10 | 10 | 4 | | |
-| Glúteos | Elevação pélvica, Búlgaro | 4 | 6 | 6 | 7 | 6 | 4 | | |
-| Panturrilhas | Panturrilha em pé, Panturrilha sentada | 4 | 4 | 6 | 6 | 6 | 2 | | |
-| Core | Prancha, Pallof press | 4 | 4 | 6 | 6 | 6 | 4 | | |
-| **Total da semana** (búlgaro contado 1× só) | | **52** | **64** | **82** | **86** | **82** | **40** | | |
-
-> Alvos calculados a partir das tabelas do `02_weekly_schedule.md` (coincidem com a tabela de volume do `01_program_design.md` nas S2–3, S6–7 e S8–11). Diferença ≤ −2 séries em um grupo → identificar a sessão perdida/encurtada.
-
-### 3.3 Progresso dos exercícios P (melhor série da semana)
-
-| Exercício P | Melhor série (kg × reps @RPE) | e1RM da semana | e1RM da semana anterior | Δ |
-|---|---|---|---|---|
-| Supino reto com barra | | | | |
-| Agachamento livre com barra | | | | |
-| Supino inclinado c/ halteres (kg/halter) | | | | |
-| Terra romeno com barra | | | | |
-
-### 3.4 Platôs (contador de sessões seguidas sem progresso em reps ou carga)
-
-| Exercício | Sessões sem progresso | Ação |
-|---|---|---|
-| | 2 → **alerta** | Checar sono (≥ 7 h), proteína/kcal, técnica, descanso entre séries |
-| | 3 → **reduzir 10%** | Reconstruir com dupla progressão; se repetir, trocar pela variação do `03_exercise_guide.md` no mesociclo seguinte |
-
-### 3.5 Corpo, sono e nutrição da semana
-
-| Item | Meta | Resultado | Atingiu? |
-|---|---|---|---|
-| Nº de pesagens | ≥ 3 (ideal 7) | | S/N |
-| Peso médio (kg) | — | | — |
-| Variação vs. semana anterior (kg) | **+0,2 a +0,4** (ignorar S1–2) | | S/N |
-| Tendência 2 semanas (kg/sem) | +0,2 a +0,4 | | S/N |
-| Sono médio (h) | ≥ 7 | | S/N |
-| kcal média — dias de treino | meta da fase (±10%) | | % |
-| kcal média — dias de descanso | 2.820 (±10%) | | % |
-| Proteína média (g) | 160 (mín. 150) | | % |
-| Dias com proteína < 140 g | ≤ 1 | | S/N |
-| Água média (L) | ≥ 3,0 treino / ≥ 2,6 descanso | | S/N |
-| Creatina (dias tomados/7) | ≥ 90% (7/7 ou 6/7) | | S/N |
-| Pré-treino feito (sessões/4) | 4/4 | | S/N |
-| Proteína pós-treino ≤ 2 h (sessões/4) | 4/4 | | S/N |
-| **Aderência à dieta** (dias "dentro da meta" ÷ 7) | **≥ 80%** | | S/N |
-| Álcool (doses, opcional) | ≤ 1–2, máx. 1×/sem | | S/N |
-
-**Ação da balança** (regra do `04_nutrition_plan.md`, seção 10 — no máx. 1 ajuste a cada 2 semanas):
-
-| Tendência de 2 semanas | Ação | Marcar |
-|---|---|---|
-| S1–2 (+0,5 a +1,5 kg esperado: água/glicogênio/creatina) | Nenhuma. Referência passa a ser a média da S2 | ☐ |
-| < +0,1 kg/sem (ou perda) | **+150 kcal/dia** (carboidrato, primeiro nos dias de treino) | ☐ |
-| +0,2 a +0,4 kg/sem | **Manter** | ☐ |
-| +0,4 a +0,5 kg/sem | Manter e vigiar a cintura | ☐ |
-| > +0,5 kg/sem por 2 semanas | **−150 kcal/dia** (carbo/gordura dos dias de descanso). Nunca reduzir proteína | ☐ |
-| Peso sobe bem, mas desempenho cai + fadiga | Não é caloria: checar sono/pré-treino e os sinais de deload (3.6) | ☐ |
-
-**Histórico de ajustes calóricos**: Data ____ · ±____ kcal · Motivo ____________
-
-### 3.6 Checklist de sinais de deload (marcar se presente na semana)
-
-| Sinal | Semana anterior | Esta semana | Presente há > 1 semana? |
-|---|---|---|---|
-| Queda de desempenho em ≥ 3 exercícios | ☐ | ☐ | S/N |
-| Fadiga crônica ou sono ruim (média < 7 h / qualidade ≤ 2) | ☐ | ☐ | S/N |
-| Dor articular persistente (não DOMS) | ☐ | ☐ | S/N |
-| Perda de motivação / vontade de faltar | ☐ | ☐ | S/N |
-| FC de repouso **+5 bpm** sobre a média | ☐ | ☐ | S/N |
-| **Total de sinais sustentados** | | | **≥ 2 → deload reativo (seção 7)** |
-
-**Plano para a próxima semana** (cargas a subir, ajustes, foco técnico): ______________________
-
----
-
-## 4. Avaliações periódicas (S3 · S7 · S11 · S12)
-
-> Fazer no fim da semana indicada (sábado/domingo), nas mesmas condições da medição inicial. O e1RM vem da **melhor série** dos exercícios P na **última sessão** da semana: `e1RM = carga × (1 + reps/30)`. O iniciante **não testa 1RM**.
-
-### 4.0 Linha de base (antes da S1 ou no fim da S1)
-
-| Item | Valor | Item | Valor |
-|---|---|---|---|
-| Data | | Peso (média de 3 dias) | |
-| Cintura — umbigo (cm) | | Peito (cm) | |
-| Braço direito relaxado (cm) | | Coxa direita (cm) | |
-| % de gordura (opcional, mesmo método sempre) | | Fotos frente/lado/costas ✔ | |
-| PAR-Q respondido ✔ | | Carga final S1 dos P (supino reto / agachamento / sup. inclinado / RDL) | / / / |
-
----
-
-### 4.1 Avaliação 1 — Fim da Adaptação (S1–3) · Data ___/___
-
-#### Força — e1RM dos exercícios P
-
-| Exercício P | Melhor série S3 (kg × reps @RPE) | e1RM S3 | Carga final S1 | Aumento de carga S1→S3 (%) | **Carga inicial S4** = 70% e1RM, para 8–10 reps |
-|---|---|---|---|---|---|
-| Supino reto com barra | | | | | |
-| Agachamento livre com barra | | | | | |
-| Supino inclinado c/ halteres (kg/halter) | | | | | |
-| Terra romeno com barra | | | | | |
-
-> Exercícios S e A (sem e1RM): ao passar de 10–12 para a mesma faixa (S) mantenha a carga; os A passam de 2 para 3 séries com a mesma carga.
-
-#### Corpo
-
-| Item | Linha de base | S3 | Variação | Meta |
-|---|---|---|---|---|
-| Peso médio (kg) | | | | +0,5 a +1,5 kg nas S1–2 é água/glicogênio; depois +0,2 a +0,4/sem |
-| Cintura (cm) | | | | Estável (≤ +1 cm/mês) |
-| Peito (cm) | | | | ↑ |
-| Braço (cm) | | | | ↑ |
-| Coxa (cm) | | | | ↑ |
-| Fotos ✔ | | | | — |
-
-#### Aderência do bloco
-
-| Item | Resultado (média S1–3) | Meta |
-|---|---|---|
-| Sessões feitas | /12 | 12 |
-| Aderência à dieta | % | ≥ 80% |
-| Sono médio | h | ≥ 7 |
-| Creatina | % | ≥ 90% |
-
-#### Técnica (autoavaliação com vídeo — 1 = ruim, 5 = sólida)
-
-| Exercício | Nota (1–5) | Observação |
-|---|---|---|
-| Agachamento livre | | |
-| Terra romeno | | |
-| Remada curvada | | |
-| Supino reto | | |
-| Búlgaro (já com halteres? S/N) | | |
-
-#### Decisão
-- Força ↑ **e** cintura estável? **S/N** (sim = superávit correto)
-- Técnica ≥ 4 em todos os críticos? **S/N** (não → manter cargas da S3 por mais 1 semana no exercício com nota baixa, dentro da Acumulação)
-- O que funcionou: ______ · O que melhorar: ______ · Ajustes para a Acumulação: ______
-
----
-
-### 4.2 Avaliação 2 — Fim da Acumulação (S4–7) · Data ___/___
-
-#### Força — e1RM dos exercícios P
-
-| Exercício P | Melhor série S7 | e1RM S3 | e1RM S7 | Δ kg | Δ % | **Carga inicial S8** = 78–80% e1RM, para 5–7 reps |
+| Exercício | Original / Sub (F/M/D + motivo) | Checklist de ajuste (S/N) | Pinos | Dor E/D | 4×12 RIR≥2 → sobe? | Carga da próxima |
 |---|---|---|---|---|---|---|
-| Supino reto com barra | | | | | | |
-| Agachamento livre com barra | | | | | | |
-| Supino inclinado c/ halteres (kg/halter) | | | | | | |
-| Terra romeno com barra | | | | | | |
+| A1 Pulley pronado ⚠️ | | Rolo na coxa **3–4 dedos acima da patela** __ · rolo só trava o quadril __ · joelho ~90°, pés no chão __ · não empurrou com as pernas __ | Rolo: __ Banco: __ | (campo único da sessão) | SOBE / MANTÉM | |
+| A2 Pulley supinado ⚠️ | | Igual ao A1: rolo acima da patela __ · joelho ~90° __ · não empurrou __ | Rolo: __ Banco: __ | (campo único) | SOBE / MANTÉM | |
+| A3 Remada articulada ✅ | | Joelho ≥ 90° (aberto) __ · pés só apoiados, sem impulso __ | Banco: __ Peito: __ | (campo único) | SOBE / MANTÉM | |
+| A4 Remada baixa ⚠️ | | Joelhos ~20–30° fixos, sem estender __ · entrou e saiu **sem agachar fundo** __ · pés no meio da plataforma __ | — | **E __ / D __** | SOBE / MANTÉM | |
+| A5 Abdômen Hammer ⚠️ | | Modelo tem rolo de perna? __ · carga no **tronco** __ · rolo fora da patela __ · joelho ≤ 90° __ · trocou pela alternativa? (qual) ____ | Banco: __ | **E __ / D __** · RIR < 2? ⚠️ | SOBE / MANTÉM | |
 
-> S e A: na Intensificação a faixa de reps desce (S 10–12 → 6–8; A 12–15 → 10–12) → **aumentar a carga em 5–10%**.
-
-#### Corpo
-
-| Item | S3 | S7 | Variação | Meta |
-|---|---|---|---|---|
-| Peso médio (kg) | | | | +0,8 a +1,6 kg em 4 semanas |
-| Cintura (cm) | | | | ≤ +1 cm/mês |
-| Peito (cm) | | | | ↑ |
-| Braço (cm) | | | | ↑ |
-| Coxa (cm) | | | | ↑ |
-| Fotos ✔ | | | | — |
-
-#### Volume e recuperação no pico (S6–7)
-
-| Item | Resultado | Meta |
-|---|---|---|
-| Séries feitas S4–7 | /336 | ≥ 90% |
-| Sessões feitas | /16 | 16 |
-| Sono médio S6–7 | h | 7–9 |
-| Sinais de deload acumulados | nº | < 2 |
-| Aderência à dieta | % | ≥ 80% |
-| Recalcular GET com o peso atual ✔ (`04`, seção 6) | | — |
-
-#### Decisão
-- Força ↑ e cintura estável? **S/N**
-- Exercícios em platô (3+ sessões) → trocar pela variação equivalente do `03_exercise_guide.md`: ______
-- Ajustes para a Intensificação (spotter/seguranças, strap no RDL, ajuda com halteres pesados): ______
+> A1–A3: um campo único de dor ("dor durante a sessão E/D", no cabeçalho). A4 e A5: dor por exercício (`handoff_guide`).
+> A5: na **S1**, pedir ao personal para conferir o modelo. Se a carga passar pelo joelho → **abdominal supra no banco reto com as pernas estendidas** (`03`).
 
 ---
 
-### 4.3 Avaliação 3 — Fim da Intensificação (S8–11) · Data ___/___
+### 1B. Treino B — Peito + tríceps
 
-#### Força — e1RM dos exercícios P
+**Séries**
 
-| Exercício P | Melhor série S11 | e1RM S3 | e1RM S7 | e1RM S11 | Δ S7→S11 (%) | Δ S3→S11 (%) | **Carga S12 (deload)** = ~60% e1RM, 2×6–8 @5–6 |
-|---|---|---|---|---|---|---|---|
-| Supino reto com barra | | | | | | | |
-| Agachamento livre com barra | | | | | | | |
-| Supino inclinado c/ halteres (kg/halter) | | | | | | | |
-| Terra romeno com barra | | | | | | | |
-
-#### Corpo
-
-| Item | S7 | S11 | Variação | Meta |
-|---|---|---|---|---|
-| Peso médio (kg) | | | | +0,8 a +1,6 kg em 4 semanas |
-| Cintura (cm) | | | | ≤ +1 cm/mês |
-| Peito (cm) | | | | ↑ |
-| Braço (cm) | | | | ↑ |
-| Coxa (cm) | | | | ↑ |
-| Fotos ✔ | | | | — |
-
-#### Recordes do ciclo (S10–11)
-
-| Exercício | Recorde de carga (kg × reps) | Recorde de reps (mesma carga) |
-|---|---|---|
-| | | |
-
-#### Decisão
-- Força ↑ e cintura estável? **S/N**
-- Duração média das sessões S8–11: ____ min (> 75 min → bebida com carboidrato intra-treino; revisar descansos)
-- Planejar o re-teste da S12? **S/N**
-
----
-
-### 4.4 Avaliação final — Deload (S12) + re-teste opcional · Data ___/___
-
-**Re-teste opcional**: nos 4 exercícios P, 1 série de **AMRAP técnico** com a carga da S11 para 5–7 reps, **parando em RPE 9** (nunca falha). Fazer no último treino de cada sessão da S12 ou na semana seguinte (ver Inconsistência nº 6).
-
-| Exercício P | Re-teste (kg × reps @RPE) | e1RM S12 | e1RM S3 | e1RM S7 | e1RM S11 | Ganho total S3→S12 (kg / %) | **Carga inicial do próximo ciclo** (Acumulação) = ~70% do e1RM S12 |
-|---|---|---|---|---|---|---|---|
-| Supino reto com barra | | | | | | | |
-| Agachamento livre com barra | | | | | | | |
-| Supino inclinado c/ halteres (kg/halter) | | | | | | | |
-| Terra romeno com barra | | | | | | | |
-
-#### Corpo — balanço das 12 semanas
-
-| Item | Linha de base | S3 | S7 | S11 | S12 | Total | Meta 12 sem |
-|---|---|---|---|---|---|---|---|
-| Peso médio (kg) | | | | | | | +2,5 a +4,5 kg |
-| Cintura (cm) | | | | | | | ≤ +1 cm/mês |
-| Peito (cm) | | | | | | | ↑ |
-| Braço (cm) | | | | | | | ↑ |
-| Coxa (cm) | | | | | | | ↑ |
-| % gordura (opcional) | | | | | | | estável/↓ leve |
-
-#### Balanço do ciclo
-
-| Item | Resultado | Meta |
-|---|---|---|
-| Sessões feitas | /48 | ≥ 44 (≥ 90%) |
-| Aderência média à dieta | % | ≥ 80% |
-| Sono médio | h | ≥ 7 |
-| Deloads reativos usados | nº | 0 |
-| Exercícios substituídos (e motivo) | | — |
-
-#### Decisão para o próximo ciclo
-- Novo ciclo de 12 semanas reiniciando na **Acumulação** com cargas do e1RM S12.
-- Já fez 2 ciclos completos? **S/N** → se sim, avaliar migração para periodização ondulatória (intermediário).
-- Recalcular o GET com o peso novo (`04`, seção 6).
-- O que funcionou: ______ · O que melhorar: ______
-
----
-
-## 5. Rastreador de composição corporal
-
-### 5.1 Peso semanal
-
-| Semana | Fase | Nº de pesagens | Peso médio (kg) | Δ vs. semana anterior (kg) | Tendência 2 sem (kg/sem) | Na meta (+0,2 a +0,4)? | Ação da balança |
-|---|---|---|---|---|---|---|---|
-| Base | — | | | — | — | — | — |
-| 1 | Adaptação | | | | ignorar | ignorar | nenhuma |
-| 2 | Adaptação | | | | ignorar | ignorar | nenhuma (nova referência) |
-| 3 | Adaptação | | | | | | |
-| 4 | Acumulação | | | | | | |
-| 5 | Acumulação | | | | | | |
-| 6 | Acumulação | | | | | | |
-| 7 | Acumulação | | | | | | |
-| 8 | Intensificação | | | | | | |
-| 9 | Intensificação | | | | | | |
-| 10 | Intensificação | | | | | | |
-| 11 | Intensificação | | | | | | |
-| 12 | Deload | | | | | | |
-
-### 5.2 Medidas (linha de base + S3 · S7 · S11 · S12)
-
-| Data | Semana | Peso médio (kg) | Cintura — umbigo (cm) | Peito (cm) | Braço D relaxado (cm) | Coxa D (cm) | % gordura (opcional) | Massa muscular (kg, opcional) | Fotos ✔ |
-|---|---|---|---|---|---|---|---|---|---|
-| | Base | | | | | | | | |
-| | S3 | | | | | | | | |
-| | S7 | | | | | | | | |
-| | S11 | | | | | | | | |
-| | S12 | | | | | | | | |
-
-### 5.3 Guia de medição e fotos
-
-- **Peso**: ao acordar, após urinar, em jejum, sem roupa, mesma balança, no mesmo lugar do piso. Usar sempre a **média** da semana.
-- **Fita métrica**: fita não elástica, encostada na pele sem apertar, horizontal ao chão, sempre do **lado direito**, medir 2× e anotar a média. Mesma pessoa, de preferência.
-  - **Cintura**: na altura do umbigo, ao fim de uma expiração normal, abdômen relaxado.
-  - **Peito**: na linha dos mamilos, braços relaxados ao lado do corpo, após expiração normal.
-  - **Braço**: ponto médio entre o ombro (acrômio) e o cotovelo, braço relaxado ao lado do corpo.
-  - **Coxa**: ponto médio entre a virilha e a borda de cima da patela, em pé, peso nas duas pernas.
-- **Sem bioimpedância/adipômetro**: cintura + fotos substituem o % de gordura. Se usar bioimpedância, medir em jejum, sem treino nas 12 h anteriores e com hidratação normal (a creatina altera a água e o resultado).
-- **Fotos**: mesma hora (manhã, em jejum), mesmo local, mesma luz (de frente, sem sombra), câmera na altura do umbigo a ~2 m, mesma roupa (sunga/short), posição relaxada. Tirar **frente, lado direito e costas**. Sem "pump" (nunca logo após treinar).
-- **Medidas nunca no dia seguinte a um treino de pernas pesado** (inchaço altera a coxa).
-
----
-
-## 6. Regras de decisão de progressão
-
-### 6.1 Dupla progressão (regra principal, todos os exercícios)
-
-| Situação na sessão | Decisão para a próxima sessão do mesmo treino |
-|---|---|
-| Nem todas as séries chegaram ao topo da faixa | **Manter a carga** e tentar +1–2 reps |
-| Todas as séries no **topo** da faixa com RPE ≤ alvo e técnica estável | **Subir a carga** e voltar ao limite inferior da faixa |
-| RPE real ≥ 1 ponto **acima** do alvo | Repetir a carga; se acontecer **2× seguidas**, reduzir **5%** |
-| RPE real ≥ 1 ponto **abaixo** do alvo com reps no topo | Subir já na próxima sessão (pode usar o incremento maior) |
-| Técnica instável (S1–3 principalmente) | Não subir carga, mesmo com reps no topo |
-| Dor aguda/articular | Parar o exercício, usar a alternativa "Fácil" do `03`; dor > 1 semana → profissional de saúde |
-
-Exemplo (faixa 8–10): `60 × 8,8,8` → `60 × 9,9,8` → `60 × 10,10,10 @≤8` → `62,5 × 8,8,8` ...
-
-### 6.2 Incrementos de carga
-
-| Tipo | Incremento | Ritmo esperado |
-|---|---|---|
-| Compostos de inferiores com barra (agachamento, terra romeno, hip thrust) | +2,5 a 5 kg | a cada 1–2 semanas |
-| Compostos de superiores com barra (supino reto, remada curvada) | +2 a 2,5 kg | a cada 1–2 semanas |
-| Halteres | próximo par (+1 a 2 kg por halter) | a cada 1–2 semanas (compostos) |
-| Máquinas e polias | próxima placa / menor incremento | a cada 2–3 semanas (isoladores) |
-| Barra fixa assistida | −assistência (próxima placa) | — |
-| Prancha / Pallof | +5–10 s ou +1–2 reps/lado | dentro da faixa da fase |
-
-**Tetos**: no máximo **+5%/semana** de carga por exercício; volume semanal no máximo **+10%** fora das viradas de fase.
-
-### 6.3 Viradas de fase (cálculo da carga inicial)
-
-| Virada | Exercícios P | Exercícios S e A |
-|---|---|---|
-| S3 → S4 (Acumulação) | ~**70% do e1RM S3** para 8–10 reps | S: mesma faixa (10–12), manter carga · A: +1 série, manter carga |
-| S7 → S8 (Intensificação) | ~**78–80% do e1RM S7** para 5–7 reps | Faixa desce → **+5–10%** de carga |
-| S11 → S12 (Deload) | ~**60% do e1RM S11**, 2×6–8 @5–6 | Metade das séries, cargas leves (RPE 6) |
-| S12 → novo ciclo | ~70% do e1RM do re-teste S12 | Recalibrar pelo RPE na 1ª sessão |
-
-### 6.4 Fórmulas para planilha (Excel/Google Planilhas em pt-BR)
-
-| Cálculo | Fórmula (exemplo: carga em B2, reps em C2, RPE em D2) |
-|---|---|
-| e1RM (Epley) | `=ARRED(B2*(1+C2/30);1)` |
-| Tonelagem de 4 séries (cargas B2:B5, reps C2:C5) | `=SOMARPRODUTO(B2:B5;C2:C5)` |
-| Subir carga? (topo da faixa em F2, RPE alvo em G2, técnica em H2) | `=SE(E(MÍNIMO(C2:C5)>=F2;MÁXIMO(D2:D5)<=G2;H2="S");"SUBIR";"MANTER")` |
-| Carga inicial S4 (e1RM em J2) | `=ARRED(J2*0,7/2,5;0)*2,5` (arredonda para múltiplos de 2,5 kg) |
-| Δ % entre avaliações | `=(J3-J2)/J2` (formatar como %) |
-| Média semanal de peso | `=MÉDIA(C2:C8)` |
-
-> Em planilha em inglês: `ROUND`, `SUMPRODUCT`, `IF(AND(...))`, `MIN`, `MAX`, `AVERAGE` e vírgula como separador.
-
-### 6.5 Formato "banco de dados" (opcional, 1 linha por série)
-
-Para quem prefere uma única aba que alimenta gráficos e tabelas dinâmicas:
-
-| Data | Semana | Fase | Sessão | Nº | Exercício | Cat. | Substituto (S/N) | Série | Carga (kg) | Reps | RPE | Reps alvo (mín–máx) | RPE alvo | Técnica estável (S/N) | Dor (0–10) | Obs. |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-__-__ | 1 | Adaptação | Sup A | 1 | Supino reto com barra | P | N | 1 | | | | 10–12 | 6 | | | |
-
----
-
-## 7. Gatilhos de deload
-
-### 7.1 Deload planejado — Semana 12
-- **Tipo**: deload de volume — **−50% das séries** (P/S 2 séries, A 1 série), cargas **~60% do e1RM**, RPE 5–6, mesmos exercícios.
-- **Nutrição**: **não cortar** calorias nem proteína (3.100 kcal treino / 2.820 descanso); pausar a cafeína.
-
-### 7.2 Deload reativo (antecipado)
-
-| Regra | Ação |
-|---|---|
-| **≥ 2 sinais** do checklist 3.6 presentes por **mais de 1 semana** | Fazer 1 semana com os parâmetros da S12 (calorias da linha "Deload") e depois **retomar a fase no ponto onde parou** |
-| Estagnação em vários exercícios por 2+ semanas **com** sinais de fadiga | Antecipar o deload |
-| Platô em 1 exercício isolado (3 sessões) | **Não** é deload: reduzir 10% da carga naquele exercício (6.1/3.4) |
-| Dor articular aguda | Não é deload: regra da dor (substituir o exercício) |
-
-### 7.3 Registro de deloads
-
-| Data início | Semana do programa | Tipo (planejado / reativo) | Sinais que motivaram | Semana retomada | Observações |
+| Exercício | Série | Carga (kg/placa) | Reps | RIR | ✔ |
 |---|---|---|---|---|---|
-| | 12 | Planejado | — | Novo ciclo | |
-| | | | | | |
+| B1 Supino inclinado articulado | 1 | | | | |
+| B1 Supino inclinado articulado | 2 | | | | |
+| B1 Supino inclinado articulado | 3 | | | | |
+| B1 Supino inclinado articulado | 4 (— S6) | | | | |
+| B2 Supino reto articulado | 1 | | | | |
+| B2 Supino reto articulado | 2 | | | | |
+| B2 Supino reto articulado | 3 | | | | |
+| B2 Supino reto articulado | 4 (— S6) | | | | |
+| B3 Peck deck | 1 | | | | |
+| B3 Peck deck | 2 | | | | |
+| B3 Peck deck | 3 | | | | |
+| B3 Peck deck | 4 (— S6) | | | | |
+| B4 Elevação frontal (kg **por halter**) | 1 | | | | |
+| B4 Elevação frontal | 2 | | | | |
+| B4 Elevação frontal | 3 | | | | |
+| B4 Elevação frontal | 4 (— S6) | | | | |
+| B5 Tríceps no puxador | 1 | | | | |
+| B5 Tríceps no puxador | 2 | | | | |
+| B5 Tríceps no puxador | 3 | | | | |
+| B5 Tríceps no puxador | 4 (— S6) | | | | |
+
+**Por exercício**
+
+| Exercício | Original / Sub (F/M/D + motivo) | Checklist de ajuste (S/N) | Pinos / acessório | 4×12 RIR≥2 → sobe? | Carga da próxima |
+|---|---|---|---|---|---|
+| B1 Supino inclinado ✅ | | Pegada na parte de cima do peito __ · pés firmes, **sem empurrar com as pernas** __ · joelho ≥ 90° __ | Banco: __ | SOBE / MANTÉM | |
+| B2 Supino reto ✅ | | Pegada na linha do peito __ · pés firmes, sem empurrar __ | Banco: __ | SOBE / MANTÉM | |
+| B3 Peck deck ✅ | | Pegadas na altura do peito __ · limitador de amplitude na linha do corpo __ | Banco: __ Limitador: __ | SOBE / MANTÉM | |
+| B4 Elevação frontal ✅ | | Carga **por halter** __ · halter **pego no suporte** (sem agachar) __ · joelhos destravados __ | Halter: __ kg | SOBE / MANTÉM | |
+| B5 Tríceps polia ✅ | | Joelhos destravados, base paralela __ | Acessório: barra / V / corda | SOBE / MANTÉM | |
+
+> Treino B: dor no joelho em **campo único da sessão** (cabeçalho).
 
 ---
 
-## 8. Condição diária × treino (leitura rápida)
+### 1C. Treino C — Perna (sem extensora)
 
-| Sinal no dia do treino | Ajuste sugerido |
+> ❌ **Cadeira extensora: cortada (R1).** Não registrar nem substituir por nenhuma variação.
+
+**Séries**
+
+| Exercício | Série | Carga (kg/placa) | Reps | RIR | ✔ |
+|---|---|---|---|---|---|
+| C1 Cadeira flexora (**sem falha**) | 1 | | | | |
+| C1 Cadeira flexora | 2 | | | | |
+| C1 Cadeira flexora | 3 | | | | |
+| C1 Cadeira flexora | 4 (— S6) | | | | |
+| C2 Abdutora | 1 | | | | |
+| C2 Abdutora | 2 | | | | |
+| C2 Abdutora | 3 | | | | |
+| C2 Abdutora | 4 (— S6) | | | | |
+| C3 Adutora | 1 | | | | |
+| C3 Adutora | 2 | | | | |
+| C3 Adutora | 3 | | | | |
+| C3 Adutora | 4 (— S6) | | | | |
+| C4 Mesa flexora (**sem falha**) | 1 | | | | |
+| C4 Mesa flexora | 2 | | | | |
+| C4 Mesa flexora | 3 | | | | |
+| C4 Mesa flexora | 4 (— S6) | | | | |
+| C5 Flexora vertical — **E** (**sem falha**) | 1 | | | | |
+| C5 Flexora vertical — E | 2 | | | | |
+| C5 Flexora vertical — E | 3 | | | | |
+| C5 Flexora vertical — E | 4 (— S6) | | | | |
+| C5 Flexora vertical — **D** (**sem falha**) | 1 | | | | |
+| C5 Flexora vertical — D | 2 | | | | |
+| C5 Flexora vertical — D | 3 | | | | |
+| C5 Flexora vertical — D | 4 (— S6) | | | | |
+| C6 Elevação pélvica máquina (**sem falha**) | 1 | | | | |
+| C6 Elevação pélvica máquina | 2 | | | | |
+| C6 Elevação pélvica máquina | 3 | | | | |
+| C6 Elevação pélvica máquina | 4 (— S6) | | | | |
+| C7 Panturrilha em pé | 1 | | | | |
+| C7 Panturrilha em pé | 2 | | | | |
+| C7 Panturrilha em pé | 3 | | | | |
+| C7 Panturrilha em pé | 4 (— S6) | | | | |
+
+**Por exercício** (dor E/D em **todo** exercício do Treino C)
+
+| Exercício | Original / Sub (F/M/D + motivo) | Checklist de ajuste (S/N) | Pinos | Dor E | Dor D | Código (VERDE/AMARELO/VERMELHO) + ação | RIR < 2? ⚠️ | 4×12 RIR≥2 → sobe? | Carga da próxima |
+|---|---|---|---|---|---|---|---|---|---|
+| C1 Cadeira flexora ⚠️ | | Eixo alinhado ao joelho __ · **rolo de carga no tornozelo** __ · **trava da coxa acima da patela** __ · amplitude sem dor (sem extensão total na volta) __ | Encosto: __ Rolo: __ Limitador: __ | | | | | SOBE / MANTÉM | |
+| C2 Abdutora ✅ | | Almofadas na coxa, **não no joelho** __ · abertura inicial confortável __ | Abertura: __ | | | | — | SOBE / MANTÉM | |
+| C3 Adutora ✅ | | Almofadas na coxa, não no joelho __ · abertura só até o confortável __ | Abertura: __ | | | | — | SOBE / MANTÉM | |
+| C4 Mesa flexora ⚠️ | | **Patela fora do banco** __ · toalha sob a coxa __ · rolo no tornozelo __ · eixo alinhado __ · **entrou sem ajoelhar** __ | Rolo: __ | | | | | SOBE / MANTÉM | |
+| C5 Flexora vertical ⚠️ | | **Almofada acima da patela** __ · rolo no tornozelo __ · eixo no joelho que trabalha __ · **joelho de apoio destravado** __ | Almofada: __ Rolo: __ | | | | | SOBE / MANTÉM (E e D) | |
+| C6 Elevação pélvica ⚠️ | | Pés: **canela vertical / joelho ≈ 90° no topo** __ · não fechou além de 90° __ · **pausa de 1 s** (sem isometria longa) __ · cinto no quadril, não na barriga __ · entrou/saiu sem agachar fundo __ | Pés/plataforma: __ | | | | | SOBE / MANTÉM | |
+| C7 Panturrilha em pé ✅ | | Joelhos destravados, sem hiperestender __ · ombreira sem agachar fundo para entrar __ | Ombreira: __ | | | | — | SOBE / MANTÉM | |
+
+**Ações da regra da dor nesta sessão:** AMARELO em ______ (reduziu? S/N · trocou? S/N) · VERMELHO em ______ (parou? S/N · avisou personal/fisio? S/N)
+
+---
+
+### 1D. Histórico de cargas (visão das 6 semanas)
+
+> Preencher com a carga de trabalho de cada sessão (a mais usada nas séries). Marcar `↑` quando subiu. Na S6, anotar a carga da semana leve.
+
+| Exercício | S1 | S2 | S3 | S4 | S5 | S6 (3 séries) | Δ S1→S5 (kg) | Δ % |
+|---|---|---|---|---|---|---|---|---|
+| A1 Pulley pronado | | | | | | | | |
+| A2 Pulley supinado | | | | | | | | |
+| A3 Remada articulada neutra | | | | | | | | |
+| A4 Remada baixa triângulo | | | | | | | | |
+| A5 Abdômen Hammer (ou alternativa) | | | | | | | | |
+| B1 Supino inclinado articulado | | | | | | | | |
+| B2 Supino reto articulado | | | | | | | | |
+| B3 Peck deck | | | | | | | | |
+| B4 Elevação frontal (por halter) | | | | | | | | |
+| B5 Tríceps no puxador | | | | | | | | |
+| C1 Cadeira flexora | | | | | | | | |
+| C2 Abdutora | | | | | | | | |
+| C3 Adutora | | | | | | | | |
+| C4 Mesa flexora | | | | | | | | |
+| C5 Flexora vertical (E / D) | | | | | | | | |
+| C6 Elevação pélvica máquina | | | | | | | | |
+| C7 Panturrilha em pé | | | | | | | | |
+
+Fórmulas: `Δ kg = S5 − S1` · `Δ % = (S5 − S1) / S1`.
+
+---
+
+## 2. Log de natação
+
+> Ter e Sáb (Qui opcional). Z2 = dá para falar frases curtas. S1–S2: 30 min ou 5×(5 min + 1 min de pausa) · S3–S5: 35–45 min (Sáb pode ter 4–6 tiros de 1 min em Z3, se o joelho estiver bem) · S6: 30 min leve.
+> ⚠️ Preferir **crawl/costas** · **nado peito** com cautela · **virada aberta** (joelho ≤ 90°) · pé de pato só com o fisio · entrar/sair pela **escada** · dor 3–4 → **pull buoy**.
+
+| Data | Sem. | Horário (M/N) | Min | Nado(s) (crawl/costas/peito) | Peito usado? S/N | Virada aberta? S/N | Pull buoy? S/N | Tiros Z3 (nº) | RPE (1–10) / Zona | Dor durante E/D | Dor 24 h E/D | Levou água e bebeu? ✔/✘ | Pré-treino ✔/✘ | Obs. |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 06/10 | S1 | | | | | | | — | | | | | | |
+| 10/10 | S1 | | | | | | | — | | | | | | |
+| 13/10 | S2 | | | | | | | — | | | | | | |
+| 17/10 | S2 | | | | | | | — | | | | | | |
+| 20/10 | S3 | | | | | | | — | | | | | | |
+| 24/10 | S3 | | | | | | | | | | | | | |
+| 27/10 | S4 | | | | | | | — | | | | | | |
+| 31/10 | S4 | | | | | | | | | | | | | |
+| 03/11 | S5 | | | | | | | — | | | | | | |
+| 07/11 | S5 | | | | | | | | | | | | | |
+| 10/11 | S6 | | | | | | | — | | | | | | |
+| 14/11 | S6 | | | | | | | — | | | | | | |
+| (extra) | | | | | | | | | | | | | | |
+
+Regra da dor também vale aqui: 3–4 → pull buoy ou só crawl/costas · ≥ 5 → sai da piscina e avisa o fisio. Alerta se "levou água" = ✘.
+
+---
+
+## 3. Check diário de condição
+
+> Copie as 7 linhas para cada semana (S1–S6). **Sem contagem de calorias.**
+
+### 3.1 Condição
+
+| Data | Dia | Atividade (A/B/C/Nat/Desc) | Sono (h) | Energia (1–5) | Passos | Pausas a cada 40 min sentado (S/N ou nº/dia) | Dor no joelho no fim do dia E/D (0–10) | Peso em jejum (kg, opc.) | Obs. |
+|---|---|---|---|---|---|---|---|---|---|
+| | Ter | Nat | | | | | | | |
+| | Qua | B | | | | | | | |
+| | Qui | Desc. ativo | | | | | | | |
+| | Sex | C | | | | | | | |
+| | Sáb | Nat | | | | | | | |
+| | Dom | Desc. | | | | | | | |
+| | Seg | A | | | | | | | |
+
+Metas: sono **≥ 7 h** · passos **7–8 mil**, subindo aos poucos (`01` seção 4) · pausas **S** em todo dia de trabalho (levantar e andar 2–3 min, e beber água) · dor ≤ 2.
+Peso em jejum: ao acordar, após urinar, sem roupa, 1 casa decimal (mín. 3x/semana).
+
+### 3.2 Nutrição (aderência ao plano da nutricionista)
+
+| Data | Café 07:00 ✔/✘ | Almoço 12:00 ✔/✘ | 150 g prot. almoço ✔/✘ | Lanche 16:00 ✔/✘ + opção | Jantar 21:30 (Padrão / Rap-pão sírio / Petiscos / Pizza / Fora do plano) | 150 g prot. jantar ✔/✘ | Talento/bombom ✔ | Pizza (pedaços) | Água (L) | Urina (clara/amarela/escura, opc.) | Prot. no café/lanche? (opc.) | Suplemento ✔/✘ (só se liberado) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Ter | | | | | | | | | | | | |
+| Qua | | | | | | | | | | | | |
+| Qui | | | | | | | | | | | | |
+| Sex | | | | | | | | | | | | |
+| Sáb | | | | | | | | | | | | |
+| Dom | | | | | | | | | | | | |
+| Seg | | | | | | | | | | | | |
+
+Metas e alertas (`handoff_linker`):
+- Água **≥ 3 L** todo dia · **≥ 3,5 L** em dia de musculação/natação · alerta se **< 2,5 L em 2+ dias** da semana.
+- Jantar: em dia de musculação (Seg/Qua/Sex) preferir **"Padrão"** · alerta suave se "Fora do plano" **≥ 2x/semana**.
+- Porção de 150 g de proteína: alerta se faltar em **≥ 3 refeições** na semana.
+- Talento/bombom **≤ 3/semana** (alerta se ≥ 4) · pizza **≤ 2 pedaços** por ocasião.
+- Suplemento (ex.: creatina) só se a nutricionista liberar: anotar a **data de início** e começar **depois** da bioimpedância da S1.
+
+Fórmula da aderência semanal: `= nº de ✔ em (Café + Almoço + Lanche + Jantar ≠ "Fora do plano") / 28` → meta **≥ 80% (≥ 23/28)** · alerta se **< 70% por 2 semanas**.
+
+---
+
+## 4. Tracker de composição corporal
+
+**Condições da bioimpedância (S1 e S6):** manhã, em jejum, depois de urinar, **sem treino nas 24 h antes**, mesma balança (de preferência a mesma clínica das medidas anteriores), sem álcool na véspera, hidratação normal. Se for começar creatina, fazer a da S1 **antes**.
+Datas: **S1 = seg 05/10** e **S6 = seg 09/11**, de manhã, em jejum, antes do Treino A. O domingo é descanso e a última natação é no sábado, então dá > 24 h sem treino.
+
+| Data | Semana | Peso (kg) | IMC | Cintura (cm) | % gordura | % músculo esquelético | Gordura visceral | TMB (kcal) | Idade biológica | Massa gorda (kg) | Massa magra (kg) | Músculo esquelético (kg) | Obs. |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 27/03/2026 | Base 1 | 81,6 | 27,26 | 96 | 26,0 | 35,4 | 9 | 1800 | 45 | 21,2 | 60,4 | 28,9 | Fev/2026: peso 84 kg, visceral 10 |
+| 08/05/2026 | Base 2 | 80,2 | 26,8 | 94 | 25,8 | 35,4 | 9 | 1779 | 43 | 20,7 | 59,5 | 28,4 | Plano da nutricionista desta data |
+| ___/10/2026 | **S1** | | | | | | | | | | | | |
+| ___/10/2026 | S3 | — | — | | — | — | — | — | — | — | — | — | Só cintura |
+| ___/11/2026 | S5 | — | — | | — | — | — | — | — | — | — | — | Só cintura |
+| ___/11/2026 | **S6** | | | | | | | | | | | | |
+
+> Massa gorda, massa magra e músculo esquelético em kg são **calculados** a partir do peso e dos percentuais (não vieram da bioimpedância). Use só para comparar tendências.
+
+**Fórmulas** (supondo Peso = C, Cintura = E, %GC = F, %músculo = G):
+
+| Campo | Fórmula |
 |---|---|
-| Sono < 6 h **e** energia pré-treino ≤ 2 | Fazer a sessão no limite inferior do RPE, sem tentar subir carga |
-| Pouco tempo (≤ 45 min) | Só exercícios 1–4; cortar acessórios/core (anotar em "Séries feitas") |
-| Equipamento ocupado | Substituto "Moderado" do `03` com mesmos parâmetros; anotar nome + motivo na coluna do exercício |
-| Sessão perdida | Fazer no próximo dia livre, mantendo a ordem Sup A → Inf A → Sup B → Inf B; nunca 2 sessões no mesmo dia |
+| IMC | `=C/(1,73^2)` |
+| Massa gorda (kg) | `=C*F/100` |
+| Massa magra (kg) | `=C-C*F/100` |
+| Músculo esquelético (kg) | `=C*G/100` |
+| Variação S6 − S1 (qualquer campo) | `=valor_S6 - valor_S1` |
+| Variação S6 − 08/05 | `=valor_S6 - valor_08/05` |
+| Ritmo de peso (kg/semana) S1→S6 | `=(Peso_S6 - Peso_S1) / nº de semanas entre as medidas` |
+| Cintura S1→S3→S5→S6 | `=E_S3-E_S1` · `=E_S5-E_S3` · `=E_S6-E_S5` |
+
+**Variações já conhecidas (27/03 → 08/05/2026, 6 semanas):**
+
+| Campo | 27/03 | 08/05 | Variação |
+|---|---|---|---|
+| Peso (kg) | 81,6 | 80,2 | −1,4 (≈ −0,23 kg/semana) |
+| IMC | 27,26 | 26,8 | −0,46 |
+| Cintura (cm) | 96 | 94 | −2 |
+| % gordura | 26,0 | 25,8 | −0,2 |
+| % músculo esquelético | 35,4 | 35,4 | 0 |
+| Gordura visceral | 9 | 9 | 0 |
+| TMB (kcal) | 1800 | 1779 | −21 |
+| Idade biológica | 45 | 43 | −2 |
+| Massa gorda (kg, calc.) | 21,2 | 20,7 | −0,5 |
+| Massa magra (kg, calc.) | 60,4 | 59,5 | −0,9 |
+
+**Metas até S6 (`01` seção 5):** cintura **< 94 cm** · %GC ↓ · gordura visceral **9 → ≤ 8** · % músculo esquelético **≥ 35,4** · cargas subindo · joelho estável (dor ≤ 2).
+**Alertas → levar à nutricionista:** peso médio caindo **> 0,75 kg/semana** por 2 semanas · peso médio e cintura **estáveis (±0,1 kg) por 4 semanas** · % músculo esquelético **caindo** na S6.
+
+### 4.1 Medidas extras (opcional)
+
+| Data | Semana | Abdômen na linha do umbigo (cm) | Quadril (cm) | Coxa D, 15 cm acima da patela (cm) | Braço D relaxado (cm) |
+|---|---|---|---|---|---|
+| | S1 | | | | |
+| | S6 | | | | |
 
 ---
 
-## Inconsistências encontradas
+## 5. Guia de fotos e medidas
 
-> Nenhum outro arquivo foi alterado. Abaixo, as divergências entre entregáveis e como este template as tratou.
+### Fotos (S1 e S6)
 
-| # | Arquivos | Divergência | Tratamento neste template |
-|---|---|---|---|
-| 1 | `handoff_linker.md` × `04_nutrition_plan.md` (seção 7) | Cafeína: o handoff indica **200–450 mg** por sessão e o plano **225–450 mg** (3–6 mg/kg), mas ambos fixam **teto diário de 400 mg**. A ponta de cima da dose ultrapassa o teto, e a faixa inicial difere (200 × 225 mg) | Registro em mg com alerta pelo teto de **400 mg/dia** |
-| 2 | `01_program_design.md` / `02_weekly_schedule.md` × `04_nutrition_plan.md` (4.2 e 6) | Duração da sessão: 01/02 = ~60 min (estimativas de 55–62 min por sessão); 04 diz que na Intensificação as sessões chegam a **70–80 min** por causa dos descansos de 2,5–3 min | Duração registrada em cada sessão; pergunta específica na Avaliação 3 |
-| 3 | `01_program_design.md` × `02_weekly_schedule.md` (tabelas por sessão) | RPE dos P na Intensificação: 01 separa **@8 nas S8–9 e @8–9 nas S10–11**; as tabelas de sessão do 02 mostram só "4×5–7 @8–9" | Metas divididas em S8–9 (@8) e S10–11 (@8–9), conforme o 01 e a tabela de parâmetros do 02 |
-| 4 | `handoff_architect.md` / guia de progressão do 02 × exemplo da Semana 1 no 02 | RPE da S1: "RPE 6" × "RPE 6–7" | Meta da S1 = @6 |
-| 5 | `01`/`02` × `03_exercise_guide.md` (aquecimento) | Séries de aproximação: 01/02 = 50% × 8 → 70% × 5 → 85% × 2–3 sempre; 03 acrescenta barra vazia × 10 e só usa 85% **da S4 em diante** | Checklist segue o 03 (mais detalhado) |
-| 6 | `02_weekly_schedule.md` / `handoff_architect.md` (re-teste) × parâmetros do deload | Re-teste AMRAP até **RPE 9 com a carga da S11** dentro da S12 conflita com o deload (~60% e1RM, RPE 5–6) | Re-teste mantido como opcional, recomendado na semana seguinte ou no último treino da S12 |
-| 7 | `01_program_design.md` (categoria A) × `02_weekly_schedule.md` | Falha/RPE 9–10 na última série "de isoladores em máquina/polia" na Intensificação: o 02 só marca "últ. @9–10" em tríceps corda, extensora, mesa flexora, peck deck e cadeira flexora; **não** marca nas panturrilhas (máquina) nem no face pull (polia) | Seguido o 02 exercício por exercício |
-| 8 | `handoff_architect.md` × calendário real | "Avaliação de 4 semanas" nas S3/S7/S11/S12: os blocos têm 3, 4, 4 e 1 semanas | Avaliações nomeadas por fase (Avaliação 1–3 + final), nas semanas indicadas |
-| 9 | `handoff_guide.md` × `02_weekly_schedule.md` | Numeração dos bi-sets: handoff usa a numeração global do guia (06+07, 19+20); 02 usa 6a/6b por sessão | Template usa 6a/6b (numeração da sessão) |
-| 10 | `01_program_design.md` (tabela C) × `02_weekly_schedule.md` | Pallof press no deload: 01 dá o genérico "2× 20–30 s" para Core; 02 dá "2×8/lado" | Seguido o 02 (2×8/lado) |
+| Item | Padrão |
+|---|---|
+| Quando | De manhã, em jejum, depois de urinar, **antes** de treinar. Na mesma manhã da bioimpedância, se der |
+| Onde / luz | Mesmo lugar, mesma luz (de frente para a janela ou luz de teto; nada de luz lateral forte), fundo liso |
+| Câmera | Celular apoiado ou com timer, na **altura do umbigo**, a ~2 m, sem zoom e sem filtro. Marcar no chão onde ficam os pés e o celular |
+| Roupa | Sempre a mesma (sunga/cueca ou short curto), sem camiseta |
+| Poses | **Frente**, **lado direito** e **costas**: em pé, relaxado, braços ao lado do corpo, sem prender a respiração e sem "encolher a barriga". Opcional: frente com bíceps contraídos |
+| Joelho | Fotos em pé, joelhos destravados. Nada de pose agachada ou ajoelhada |
+| Arquivo | Nomear `AAAA-MM-DD_S1_frente.jpg` etc. Comparar S1 × S6 lado a lado, no mesmo tamanho |
 
-Conferências sem divergência: 26 exercícios com os mesmos nomes e ordem em 01/02/03/handoffs; dias Seg/Ter/Qui/Sex; semanas das fases (1–3, 4–7, 8–11, 12); totais de séries por sessão e por semana (52/64/82/86/82/40) e por grupo muscular; metas de kcal/macros (3.100/3.200/2.820; P 160) iguais em 04 e `handoff_linker.md`.
+### Cintura (S1, S3, S5, S6)
+
+| Item | Padrão |
+|---|---|
+| Ponto | **O mesmo ponto usado nas medidas anteriores (96 → 94 cm)**. Se não souber, perguntar à clínica/nutricionista. Na falta, usar o **ponto médio entre a última costela e o topo do osso do quadril** (padrão OMS/IDF) e anotar qual foi usado |
+| Condição | Em pé, de manhã, em jejum, depois de urinar, abdômen relaxado, **no fim de uma expiração normal** |
+| Fita | Inelástica, **na horizontal**, encostada na pele sem apertar. Medir **2 vezes**; se diferir > 0,5 cm, medir a 3ª e usar a média |
+| Dia | Mesmo dia da semana e mesmo horário em todas as medições |
+| Referência | Homem: risco cardiovascular aumentado a partir de **≥ 94 cm** (IDF/OMS). Meta: **< 94 cm** |
+
+### Peso em jejum (diário ou ≥ 3x/semana)
+
+Ao acordar, depois de urinar, sem roupa, mesma balança e mesmo lugar do chão. Usar a **média semanal**, não o valor de um dia.
+
+---
+
+## 6. Resumo semanal (S1–S6)
+
+> Preencher no fim de cada semana. Uma coluna por semana.
+
+| Indicador | Meta / alerta | S1 | S2 | S3 | S4 | S5 | S6 |
+|---|---|---|---|---|---|---|---|
+| Musculação feita (x/3) | 3/3 (S6: 2–3) | | | | | | |
+| Natação feita (x/2) · min totais | 2/2 · 60–90 min | | | | | | |
+| Exercícios que subiram carga (nº de 17) | S3–S5: subindo | — | | | | | — |
+| Exercícios que mantiveram/caíram | — | | | | | | |
+| Pico de dor no joelho E / D (semana) | ≤ 2 | | | | | | |
+| Nº de AMARELOS (3–4) | 0 | | | | | | |
+| Nº de VERMELHOS (≥ 5) | 0 → se ≥ 1, avisou? | | | | | | |
+| Dor que piorou em 24 h (nº) | 0 | | | | | | |
+| Alertas de falha (RIR < 2 em A5/C1/C4/C5/C6) | 0 | | | | | | |
+| Substituições usadas (quais) | — | | | | | | |
+| Máquinas conferidas em todas as sessões? | S | | | | | | |
+| Sono médio (h) | ≥ 7 | | | | | | |
+| Energia média (1–5) | ≥ 3 | | | | | | |
+| Passos médios/dia | 7–8 mil ↑ | | | | | | |
+| Dias com pausas a cada 40 min (x/5 dias úteis) | 5/5 | | | | | | |
+| Água média (L) · dias < 2,5 L | ≥ 3 / ≥ 3,5 · < 2 dias | | | | | | |
+| Aderência às refeições (x/28 · %) | ≥ 23/28 (80%) | | | | | | |
+| Refeições sem a porção de 150 g de proteína | < 3 | | | | | | |
+| Jantares "Fora do plano" | < 2 | | | | | | |
+| Talento/bombom (x/3) | ≤ 3 | | | | | | |
+| Pizza (máx. pedaços numa ocasião) | ≤ 2 | | | | | | |
+| Pré-treino ✘ com energia baixa (nº sessões) | < 2 | | | | | | |
+| Peso médio (kg) · Δ vs. semana anterior | −0,25 a −0,5 kg/sem | | | | | | |
+| Cintura (cm) | < 94 | | — | | — | | |
+| Alertas acionados / o que fazer | — | | | | | | |
+
+---
+
+## 7. Avaliação final S6 (09–14/11/2026)
+
+### 7.1 Números
+
+| Item | 08/05/2026 | S1 | S6 | Δ S6 − S1 | Δ S6 − 08/05 | Meta | Atingiu? |
+|---|---|---|---|---|---|---|---|
+| Peso (kg) | 80,2 | | | | | −0,25 a −0,5 kg/sem | |
+| IMC | 26,8 | | | | | ↓ | |
+| Cintura (cm) | 94 | | | | | < 94 | |
+| % gordura | 25,8 | | | | | ↓ | |
+| % músculo esquelético | 35,4 | | | | | ≥ 35,4 | |
+| Gordura visceral | 9 | | | | | ≤ 8 | |
+| TMB (kcal) | 1779 | | | | | estável | |
+| Idade biológica | 43 | | | | | ↓ | |
+| Massa gorda (kg, calc.) | 20,7 | | | | | ↓ | |
+| Massa magra (kg, calc.) | 59,5 | | | | | ≥ | |
+
+### 7.2 Cargas (da seção 1D)
+
+| Exercício | Carga S1 | Melhor carga S3–S5 (4×12) | Δ kg | Δ % | e1RM Epley S5 (= carga × 1,4, referência) |
+|---|---|---|---|---|---|
+| A1 Pulley pronado | | | | | |
+| A4 Remada baixa triângulo | | | | | |
+| B1 Supino inclinado articulado | | | | | |
+| B2 Supino reto articulado | | | | | |
+| C6 Elevação pélvica máquina | | | | | |
+| (outros, se quiser) | | | | | |
+
+### 7.3 Joelho por exercício (6 semanas)
+
+| Exercício | Pico de dor E | Pico de dor D | Nº AMARELOS | Nº VERMELHOS | Piorou em 24 h (nº) | Substituição usada (qual, quantas vezes) |
+|---|---|---|---|---|---|---|
+| A4 Remada baixa | | | | | | |
+| A5 Abdômen Hammer | | | | | | |
+| C1 Cadeira flexora | | | | | | |
+| C2 Abdutora | | | | | | |
+| C3 Adutora | | | | | | |
+| C4 Mesa flexora | | | | | | |
+| C5 Flexora vertical | | | | | | |
+| C6 Elevação pélvica | | | | | | |
+| C7 Panturrilha em pé | | | | | | |
+| Natação | | | | | | |
+| Sessões A/B (campo único) | | | | | | |
+
+### 7.4 Avaliação qualitativa
+
+- O que funcionou:
+- O que foi difícil (aderência, horário, joelho):
+- Máquinas/ajustes que precisaram mudar:
+- O que mudar no programa novo (para discutir, não decidir sozinho):
+
+---
+
+## 8. Resumos para levar aos profissionais
+
+### 8.1 Resumo para o personal (reunião de 14/11/2026) — e para o fisioterapeuta
+
+**Dados para levar:** seções 1D (cargas), 7.1 (bioimpedância S1 × S6), 7.3 (dor E/D por exercício, regra da dor acionada, substituições) e aderência (musculação x/17–18 sessões · natação x/11).
+
+| Item | Resposta / dado |
+|---|---|
+| Sessões feitas: musculação ___ / natação ___ | |
+| Exercícios que subiram carga S1→S5 | |
+| Exercícios com dor ≥ 3 (E/D, quantas vezes) | |
+| Vezes em que a regra VERMELHA disparou (e o que foi feito) | |
+| Substituições usadas e por quê | |
+| Pinos/ajustes finais de cada máquina (para o programa novo) | |
+
+**Perguntas abertas (`01` seção 3) — decisão do personal/fisio:**
+
+| # | Pergunta | Resposta |
+|---|---|---|
+| 1 | **Sem trabalho direto de quadríceps** (extensora cortada). Deve entrar algum trabalho de quadríceps em amplitude segura? Qual? Opções já nas regras: leg press pés altos ≤ 90° (R4), búlgaro pés fixos ≤ 90° (R7, só com liberação explícita e começando sem carga) ou agachamento até 90° (R2). A escolha é do fisioterapeuta | |
+| 2 | **Volume de posterior alto:** C1 + C4 + C5 = 12 séries de flexão de joelho por sessão. Dá para trocar uma flexora por exercício de quadril (elevação pélvica com barra ou mais séries de C6)? | |
+| 3 | **Frequência 1x/semana por grupo** (PPL em 3 dias). Na renovação, vale um formato 2x/semana por grupo (full body ou upper/lower em 3 dias)? | |
+
+**Notas do guia (`03`, "Notas para o personal/fisio"):**
+
+| # | Ponto | Resposta |
+|---|---|---|
+| 4 | **A5 Abdômen Hammer:** o veredito depende do modelo. A carga passou pelo joelho? Se sim, manter a troca pelo abdominal no banco reto com pernas estendidas | |
+| 5 | **Amplitude das flexoras:** há uma faixa de ângulo a evitar? (hoje: sem extensão total na volta e sem flexão máxima) | |
+| 6 | **Fora das alternativas** (apoio/carga no joelho fletido): panturrilha sentada, prancha de Copenhague, flexora nórdica, gravitron de joelhos, abdominal na polia ajoelhado. Algum é desejado? Precisa de liberação | |
+| 7 | **Bike no aquecimento:** está liberada? Com que altura de banco? (hoje: esteira plana/elíptico como preferência) | |
+| 8 | **C5 flexora vertical:** 4×12 é **por perna**? (o `03` diz que sim; `01`/`02` só dizem 4×12) | |
+| 9 | **Encaminhamento (R8):** houve dor ≥ 5, pontada, estalo com dor, falseio ou inchaço? Dor 3–4 em 2 sessões seguidas? | |
+
+### 8.2 Resumo para a nutricionista (Mariana Muñoz, CRN3 34962)
+
+**Dados para levar:**
+
+| Item | S1 | S2 | S3 | S4 | S5 | S6 | Média |
+|---|---|---|---|---|---|---|---|
+| Aderência às refeições (% de 28) | | | | | | | |
+| Água média (L) | | | | | | | |
+| Refeições sem a porção de 150 g de proteína | | | | | | | |
+| Jantares "Fora do plano" | | | | | | | |
+| Talento/bombom (x/sem) | | | | | | | |
+| Peso médio (kg) | | | | | | | |
+| Cintura (cm) | | — | | — | | | |
+| Energia média nos treinos (1–5) | | | | | | | |
+| Horário de treino mais usado (manhã/noite) | | | | | | | |
+
++ bioimpedância **08/05 × S1 × S6** (seção 7.1) e data de início de suplemento (se houve).
+
+**Perguntas (`04` seção 11):**
+
+| # | Pergunta | Resposta |
+|---|---|---|
+| P1 | **Energia:** as porções escritas parecem somar ~1.300–1.750 kcal/dia, e o gasto estimado é ~2.600. O déficit é intencional? Óleo, molhos e o lanche mudam muito essa conta? | |
+| P2 | **Proteína total:** o plano parece dar ~120 g/dia (~1,5 g/kg; ~2,0 g/kg de massa magra). Quer chegar a 1,6–2,2 g/kg (128–176 g)? Como? | |
+| P3 | **Proteína no café e no lanche** (~10 g e ~5–15 g): vale reforçar (iogurte caseiro, queijo minas, ovo, whey)? | |
+| P4 | **Treino de manhã:** pode dividir o café (fruta antes, iogurte + farelo depois)? | |
+| P5 | **Treino às 19:30–20:00:** pode comer algo (ex.: fruta) ~18:00 ou adiantar o jantar nos dias de treino? | |
+| P6 | **Treino vs. descanso:** diferenciar porções (ex.: mais arroz/cuscuz) nos dias de musculação/natação? | |
+| P7 | **Jantar alternativo:** ok priorizar o prato padrão em Seg/Qua/Sex e deixar rap/petiscos/pizza para Qui/Dom? | |
+| P8 | **Creatina:** pode usar? Se sim, começar depois da bioimpedância da S1? | |
+| P9 | **Whey:** faz sentido para fechar a proteína? | |
+| P10 | **Vitamina D e ômega-3:** pedir 25(OH)D e perfil lipídico? Peixe como opção dos 150 g de proteína? | |
+| P11 | **Hidratação:** 3,5 L nos dias de treino/natação está ok? | |
+| P12 | **Revisão:** o plano é de 08/05/2026. Agendar retorno com os dados da S1 e da S6? | |
+
+---
+
+## 9. Validação cruzada (01–04 + handoffs)
+
+> Conferido: lista de exercícios (17 + natação, extensora só como ❌), datas, regras de dor, ajustes de máquina, falha, progressão e itens de nutrição. **Os arquivos não foram corrigidos**; só os pontos abaixo são reportados.
+
+**Consistente:** os 17 exercícios (A1–A5, B1–B5, C1–C7) têm o mesmo nome, ordem e veredito em `01` seção 2, `02` e `03` (tabela-resumo); a extensora aparece só como ❌ R1 nos três; a regra da dor (0–2 / 3–4 / ≥ 5) é a mesma em `01:94`, `03:26–33` e `03:938`; os ajustes do checklist do `handoff_guide` batem com os blocos "Joelho" do `03` e com a tabela do `01`; descansos e RIR por exercício do `02` batem com o `03`; o plano da nutricionista é resumido igual em `handoff_architect` e `04`; as perguntas P1–P12 do `04` seção 11 batem com o `handoff_linker`; as linhas de base de `00` batem com `04` (IMC conferido: 81,6/1,73² = 27,26 e 80,2/1,73² = 26,8).
+
+| # | Gravidade | Onde | Inconsistência | Como o template tratou |
+|---|---|---|---|---|
+| 1 | **Alta** | `02_weekly_schedule.md:9` (semana-tipo Seg A) × `02:72–77` (calendário) × `01:83`/`01:89` | **06/10/2026 é terça-feira**, não segunda. As semanas S1–S6 do calendário vão de terça a segunda, então o Treino A cai no último dia de cada semana, e a **S6 (ter 10/11 – sáb 14/11) não tem Treino A** nenhum (09/11 é S5). | Calendário com datas reais (seção 0) e campo "Data" livre nos logs |
+| 2 | Média | `01_program_design.md:83` | Diz "S6 = **09**–14/11". `01:91`, `02:77`, `04:20`, `04:194` e `handoff_architect:24` dizem **10–14/11** (e 09/11 está na S5 em `01:90`/`02:76`). | Usado 10–14/11 |
+| 3 | Média | `02_weekly_schedule.md:21` × `03_exercise_guide.md:61` e `03:959` | O `02` diz que a bike com banco alto evita o joelho passar de 90° no alto da pedalada; o `03:959` diz que, mesmo com banco alto, o joelho **passa** de 90° em cima. Além disso, `03:959` cita o `02` como "bike sem carga", texto que não existe mais no `02`. | Pergunta 7 do resumo do personal |
+| 4 | Baixa | `03_exercise_guide.md:957` | Nota desatualizada: diz que o `01` conta "8 liberados", mas `01:71` já diz **9 liberados** (correto: A3, B1–B5, C2, C3, C7). | — |
+| 5 | Média | `03_exercise_guide.md:711` × `01:37`/`01:9` e `02:54` | C5 flexora vertical: o `03` diz "4×12 **por perna**"; `01` e `02` só dizem 4×12. Se for por perna, o C5 tem 8 séries executadas (4 E + 4 D) e o Treino C passa de 28 para 32 séries, com mais tempo de sessão. | Log por perna (E/D) + pergunta 8 ao personal |
+| 6 | Baixa | `02_weekly_schedule.md:62` × `03:872` | Natação S1–S2 "30 min contínuos **ou** 4×(5 min + 1 min de pausa)": os blocos somam **24 min** (20 de nado), não 30. | Campo "Min" livre |
+| 7 | Baixa | `handoff_architect.md:17` × `handoff_guide.md:16` e `02:13` | O `handoff_architect` diz "~50–60 min, **20 séries**" para todas as sessões; o Treino C tem **28 séries** (7 × 4) e A/B ~45–55 min. | — |
+| 8 | Média | `handoff_guide.md:33` × `03:267`, `03:540` e `02` (RIR 2 em S3–S5 para A5/C1/C4/C5/C6) | O handoff sugere alertar falha quando **RIR = 0**; o `03` define "falha proibida (**RIR ≥ 2**)". | Alerta disparado em **RIR < 2** |
+| 9 | Baixa | `01_program_design.md:89–90` | A regra "4×12 com RIR ≥ 2 → sobe" está escrita só para S3–S5. Em S1–S2 (alvo RIR 3, ≥ 2) não fica claro se a carga sobe. Também: em S3–S5 o alvo é RIR 1–2, mas uma série com RIR 1 impede a subida pela regra. | S1–S2 = achar a carga; subida a partir da S3 (regra literal do `01`) |
+| 10 | Baixa | `01_program_design.md:100` × `02:77` | Bioimpedância S6 "sem treino nas 24 h antes", mas a janela S6 tem natação na ter e musculação na qua e sex até a reunião de sáb 14/11: não há manhã livre sem mexer na agenda. | Sugestão na seção 4 |
+| 11 | Baixa | `02_weekly_schedule.md:23` × `03_exercise_guide.md:893` | Volta à calma: "3–5 min" no `02` × "5 min" no `03` (e o `03` lista 8 itens de 20–30 s, ~5–6 min). | Só ✔/✘ |
+| 12 | Info | `02_weekly_schedule.md:75` | S4 termina em seg **02/11 (Finados, feriado)**: o Treino A pode cair num dia de academia fechada ou com horário reduzido. | Nota no calendário |
+
+**Status após a revisão do orquestrador (Fase 3):**
+
+| # | Status |
+|---|---|
+| 1, 2, 10 | ✅ Corrigido: semanas de segunda a domingo (S1 05–11/10 … S6 09–14/11) em `01`, `02`, `04`, `05` e `handoff_architect`; bioimpedâncias na seg 05/10 e seg 09/11, antes do Treino A; feriados de 12/10 e 02/11 sinalizados |
+| 3, 4 | ✅ Corrigido: `02` diz agora que a bike passa de 90° (só com ok do fisio) e as notas do `03` foram atualizadas |
+| 5 | ✅ Corrigido: C5 = 4×12 **por perna** no `01` e no `02` (unilateral); volume de flexão recalculado |
+| 6 | ✅ Corrigido: 5×(5 + 1 min) = 30 min |
+| 7 | ✅ Corrigido no `handoff_architect` |
+| 8 | Mantido: alerta em RIR < 2 nos exercícios ⚠️ (mais conservador que RIR 0; coerente com "sem falha / RIR 2" do `03`) |
+| 9 | ✅ Esclarecido no `01`: S1–S2 sem subir carga; a subida vale a partir da S3 |
+| 11 | Mantido (diferença menor; 3–5 min é a faixa) |
+| 12 | ✅ Sinalizado no calendário |
+
+> Nada encontrado que viole R1–R8: nenhum exercício, alternativa ou alongamento dos `01`–`03` usa extensora, afundo, agachamento abaixo de 90°, isometria em ângulo fechado ou apoio sobre a patela. No `04`, nenhum item contradiz o plano da nutricionista, e o template segue a regra de **não pedir kcal nem macros**.
+
+---
+
+> ⚠️ Este template é uma ferramenta de registro. Não substitui o personal, o fisioterapeuta/ortopedista nem a nutricionista. Dor ≥ 5 ou aguda no joelho → parar e procurar o profissional (R8).

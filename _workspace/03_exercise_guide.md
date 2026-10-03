@@ -869,7 +869,7 @@ O joelho também sofre fora dos exercícios:
 2. **Braçada:** a mão entra à frente do ombro, puxa a água por baixo do corpo até a coxa e volta por fora da água.
 3. **Pernada:** pernada **curta e contínua a partir do quadril**, joelhos quase estendidos, tornozelos soltos. Não "pedalar".
 4. **Respiração:** soltar o ar dentro da água (bolhas pelo nariz/boca) e puxar o ar virando a cabeça de lado, a cada 2 ou 3 braçadas.
-5. **Ritmo:** **Zona 2**, dá para falar frases curtas nas pausas. S1–S2 em blocos de 4×(5 min + 1 min de pausa), conforme o `02`.
+5. **Ritmo:** **Zona 2**, dá para falar frases curtas nas pausas. S1–S2 em blocos de 5×(5 min + 1 min de pausa), conforme o `02`.
 
 ### Erros comuns
 | Erro | Risco | Correção |
@@ -954,9 +954,9 @@ Estas notas **não mudam o programa**. São pontos para conversar, alinhados com
 ### Onde este guia acrescenta algo ao `01` (sem contradizer os vereditos)
 
 - **Vereditos:** todos iguais aos da tabela da seção 2 do `01`. Não há discordância de veredito.
-- **Contagem no resumo do `01`:** o `01` diz "1 proibido, 9 com ajuste obrigatório, **8** liberados". Contando a própria tabela do `01`, os liberados são **9** (A3, B1, B2, B3, B4, B5, C2, C3, C7). Parece um erro de contagem, não de veredito. Sugiro corrigir o `01` para "9 liberados".
+- **Contagem no resumo do `01`:** corrigida pelo orquestrador para "9 liberados".
 - **Ajustes extras** (cuidados, não mudam o veredito): A3/B1/B2 com o banco numa altura em que o joelho fica a ~90° ou mais aberto; C2/C3 com as almofadas na coxa, não no joelho; C4 entrando no banco sem ajoelhar; C6 e C7 entrando e saindo sem agachar fundo; e movimentos "de passagem" (pegar halter, ir ao chão).
-- **Aquecimento:** o `02` cita "bike sem carga". Na bike, mesmo com o banco alto, o joelho passa de 90° na parte de cima da pedalada (sem carga). Mantive como opção, mas com **esteira plana/elíptico como preferência** e troca imediata se doer. O fisio pode confirmar se a bike está liberada.
+- **Aquecimento:** na bike, mesmo com o banco alto, o joelho passa de 90° no alto da pedalada. Preferir **esteira plana/elíptico**; bike só com ok do fisio (o `02` foi alinhado a isso).
 - **Skill padrão adaptada:** saíram do aquecimento a corda (salto) e o agachamento livre; da volta à calma saíram a postura da criança (ajoelhada), o pombo e o alongamento de quadríceps em pé (flexão máxima). Entraram versões equivalentes em pé ou deitado.
 
 ### Quando encaminhar (R8)

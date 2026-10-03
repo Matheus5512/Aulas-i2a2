@@ -63,7 +63,7 @@ Legenda: ✅ liberado · ⚠️ liberado com ajuste obrigatório · ❌ proibido
 | C2 | Abdutora | Joelho fletido, parado, sem compressão | R7 (aprovado), R8 | ✅ | Bom para glúteo médio (ajuda no alinhamento do joelho). |
 | C3 | Adutora | Joelho fletido, parado | R7 (aprovado), R8 | ✅ | Abertura só até onde for confortável. |
 | C4 | Mesa flexora | Deitado de bruços; patela perto da borda do banco | **R5**, R8 | ⚠️ | Deitar de forma que a **patela fique fora do banco** (logo depois da borda), sem pressão na patela. Rolo no tornozelo. Pode pôr uma toalha dobrada sob a coxa distal. |
-| C5 | Flexora vertical | Em pé; a coxa da perna que trabalha encosta numa almofada | **R5**, R8 | ⚠️ | **Ajustar o apoio** para encostar na **coxa, acima da patela**. Rolo de carga no tornozelo. Joelho de apoio destravado. |
+| C5 | Flexora vertical (unilateral, 4×12 **por perna**) | Em pé; a coxa da perna que trabalha encosta numa almofada | **R5**, R8 | ⚠️ | **Ajustar o apoio** para encostar na **coxa, acima da patela**. Rolo de carga no tornozelo. Joelho de apoio destravado. |
 | C6 | Elevação pélvica máquina | Joelhos ≈90° fixos; a carga vai no quadril | R7 (aprovado), R2 (por analogia), R8 | ⚠️ | Pés posicionados para a canela ficar vertical no topo (joelho ≈90°, **não fechar mais que isso**). Pausa no topo curta (1 s), sem segurar isometria longa. |
 | C7 | Panturrilha em pé | Joelho estendido | R7 (aprovado), R8 | ✅ | Joelhos destravados, sem hiperestender. |
 | — | **Natação** (cardio) | Depende do nado e das viradas | R2 (por analogia), R8 | ⚠️ | Preferir **crawl e costas** (pernada de flexão pequena). **Nado peito** (pernada em "sapo") com cautela ou evitar se doer. Na virada, **não encolher o joelho além de 90°** para empurrar a parede (fazer virada aberta com impulso suave). Pés de pato só com liberação do fisio. |
@@ -75,20 +75,20 @@ Legenda: ✅ liberado · ⚠️ liberado com ajuste obrigatório · ❌ proibido
 Não são mudanças no programa. São perguntas que devem ser respondidas por eles.
 
 1. **Sem trabalho direto de quadríceps.** Com a extensora cortada, o Treino C não tem nenhum exercício para quadríceps. O fortalecimento de quadríceps numa amplitude segura costuma fazer parte do manejo da condropatia, mas **a escolha cabe ao fisioterapeuta**. As opções da sua própria lista de alternativas são: leg press com pés altos ≤90° (R4), agachamento búlgaro com pés fixos ≤90° (R7) ou agachamento até 90° (R2). ⚠️ O búlgaro já foi tirado da rotina antiga (estava junto do afundo). Só deve voltar com liberação explícita e começando sem carga.
-2. **Volume de posterior alto.** São 3 flexoras (C1, C4, C5) × 4×12 = 12 séries de flexão de joelho por sessão. Perguntar ao personal se dá para trocar uma delas por um exercício de quadril (por exemplo, elevação pélvica com barra ou mais séries de C6).
+2. **Volume de posterior alto.** São 3 flexoras (C1, C4, C5): 16 séries de flexão de joelho por sessão, contando a C5 (unilateral) como 4 séries por perna. Perguntar ao personal se dá para trocar uma delas por um exercício de quadril (por exemplo, elevação pélvica com barra ou mais séries de C6).
 3. **Frequência por grupo:** 1x/semana em cada músculo (PPL em 3 dias). Isso é aceitável para iniciante em recomposição. Na renovação de 14/11, vale discutir um formato que treine cada grupo 2x/semana (por exemplo, full body ou upper/lower em 3 dias).
 
 ## 4. Progressão até 14/11/2026 (sem mudar exercícios)
 
-Restam 6 semanas: S1 = 06/10 a S6 = 09–14/11.
+Restam 6 semanas, de segunda a domingo: S1 = 05–11/10 … S6 = 09–14/11 (a reunião com o personal fica no sáb 14/11).
 
 **Método:** dupla progressão dentro do 4×12 do personal.
 
 | Semanas | Esforço alvo (RIR = reps em reserva) | Regra |
 |---|---|---|
-| S1–S2 (06/10–19/10) | RIR 3 (RPE ~7) | Ajustar as máquinas com os ajustes da seção 2 e registrar as cargas. |
-| S3–S5 (20/10–09/11) | RIR 1–2 (RPE 8–9) | Fez 4×12 com RIR ≥ 2 → sobe o menor incremento da máquina na próxima sessão. Não chegou a 12 → mantém a carga. |
-| S6 (10/11–14/11) | RIR 3–4, **3 séries em vez de 4** | Semana leve (deload) antes da avaliação e da renovação do programa. |
+| S1–S2 (05/10–18/10) | RIR 3 (RPE ~7) | Ajustar as máquinas com os ajustes da seção 2 e registrar as cargas. **Ainda sem subir carga**: estas semanas servem para achar a carga que dá 4×12 com RIR 3. |
+| S3–S5 (19/10–08/11) | RIR 1–2 (RPE 8–9) | Fez 4×12 e todas as séries ficaram com RIR ≥ 2 (ou seja, estava fácil para o alvo) → sobe o menor incremento da máquina na próxima sessão. Não chegou a 12 → mantém a carga. |
+| S6 (09/11–14/11) | RIR 3–4, **3 séries em vez de 4** | Semana leve (deload) antes da avaliação e da renovação do programa. |
 
 - **Falha muscular:** proibida nos exercícios com ajuste ⚠️ de joelho (C1, C4, C5, C6, A5). Nos outros, só na última série a partir da S3, se o personal concordar.
 - **Regra da dor no joelho (0–10):** 0–2 = segue · 3–4 = reduz a carga ou a amplitude · ≥5 ou dor aguda → **para** o exercício e avisa personal/fisio (R8). Dor que piora no dia seguinte também conta.
@@ -97,6 +97,6 @@ Restam 6 semanas: S1 = 06/10 a S6 = 09–14/11.
 
 ## 5. Avaliação
 
-- A última bioimpedância é de 08/05/2026, então a de agora já está atrasada. Fazer uma **agora (S1)** e outra **em S6 (10–14/11)**, nas mesmas condições: manhã, em jejum, sem treino nas 24 h antes, mesma balança.
+- A última bioimpedância é de 08/05/2026, então a de agora já está atrasada. Fazer uma **na S1 (seg 05/10 de manhã, antes do Treino A)** e outra **na S6 (seg 09/11 de manhã, antes do Treino A)**, nas mesmas condições: manhã, em jejum, sem treino nas 24 h antes (domingo é descanso), mesma balança.
 - Medir a cintura a cada 2 semanas. Para homens, o risco cardiovascular aumentado começa em ≥ 94 cm (IDF/OMS). A meta é ficar **abaixo de 94 cm**.
 - Indicadores de sucesso da recomposição: cintura ↓, %GC ↓, gordura visceral ↓ (9 → ≤ 8), % músculo esquelético ≥ 35,4, cargas subindo e joelho estável (dor ≤ 2).

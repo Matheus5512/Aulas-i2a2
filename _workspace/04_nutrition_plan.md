@@ -17,7 +17,7 @@
 | Musculação | **Seg** A (costas + abdômen) · **Qua** B (peito + tríceps) · **Sex** C (perna). ~45–60 min, 4×12, RIR 1–3, intensidade moderada |
 | Natação | **Ter** e **Sáb**, 30–45 min Z2 (crawl/costas) |
 | Descanso | **Qui** (caminhada 20–30 min ou natação opcional) · **Dom** |
-| Período | S1 06/10 → S6 10–14/11/2026 (S6 = semana leve) |
+| Período | S1 05/10 → S6 09–14/11/2026 (S6 = semana leve) |
 
 ### Plano da nutricionista (resumo, como está)
 
@@ -189,9 +189,9 @@ Cafeína (evidência A para desempenho) não é necessária para sessões modera
 
 | Fase | Semanas | Treino | Nutrição | Observações |
 |---|---|---|---|---|
-| Ajuste | S1–S2 (06–19/10) | RIR 3 | Plano da nutricionista como está | **Bioimpedância S1** (manhã, jejum, sem treino nas 24 h antes). Iniciar o registro de aderência e água |
-| Progressão | S3–S5 (20/10–09/11) | RIR 1–2 | Igual | Cintura na S3 e S5. Se força cair, energia ruim e perda > 0,75 kg/sem → levar à nutricionista |
-| Semana leve | S6 (10–14/11) | 3 séries, RIR 3–4 | **Igual (não cortar comida na semana leve)** | **Bioimpedância S6** nas mesmas condições da S1. Levar o resumo à nutricionista |
+| Ajuste | S1–S2 (05–18/10) | RIR 3 | Plano da nutricionista como está | **Bioimpedância S1** (manhã, jejum, sem treino nas 24 h antes). Iniciar o registro de aderência e água |
+| Progressão | S3–S5 (19/10–08/11) | RIR 1–2 | Igual | Cintura na S3 e S5. Se força cair, energia ruim e perda > 0,75 kg/sem → levar à nutricionista |
+| Semana leve | S6 (09–14/11) | 3 séries, RIR 3–4 | **Igual (não cortar comida na semana leve)** | **Bioimpedância S6** nas mesmas condições da S1. Levar o resumo à nutricionista |
 
 **Sinais para levar à nutricionista (não para ajustar sozinho):**
 - Peso médio caindo **> 0,75 kg/semana** por 2 semanas, ou força caindo junto com fome e cansaço → déficit pode estar grande demais.
